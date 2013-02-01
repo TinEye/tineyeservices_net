@@ -364,10 +364,7 @@ namespace TinEye.Services
         ///   </item>
         /// </list>
         /// </remarks>
-        /// <param name="colors">List of colors for searching the collection.</param>
-        /// <param name="weights">List of weights corresponding to the colors, or empty list.
-        /// </param>
-        /// <param name="metadata">Metadata to perform additional filtering on search results.
+        /// <param name="metadata">Metadata to perform filtering on search results.
         /// </param>
         /// <param name="returnMetadata">Metadata fields to return with each match, which can
         /// include sorting options.</param>
