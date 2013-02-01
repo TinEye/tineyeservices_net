@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+
+  <HelpKINode Title="Add method" Url="html/4a7bb0fb-4e4a-0937-c9b0-7c40e4c6c22a.htm" />
+  <HelpKINode Title="AddExtraSearchOptions method" Url="html/b235f03b-6cea-8f4b-f156-3dc69737fd35.htm" />
+  <HelpKINode Title="AddImage method" Url="html/41d17520-cfda-ef2a-efbf-59090d5b0e50.htm" />
+  <HelpKINode Title="AddImage method" Url="html/ff75f539-225b-9f4f-7a92-96ca192ff92e.htm" />
+  <HelpKINode Title="AddUrl method" Url="html/caa2d02e-348a-e4ae-d5c7-dd39500be4d7.htm" />
+  <HelpKINode Title="AddUrl method" Url="html/ea3a62c9-124f-f896-05c9-f729ee3443b3.htm" />
+  <HelpKINode Title="Boundary property" Url="html/0df39b41-8ceb-ea1d-15e7-a300ecc5660b.htm" />
+  <HelpKINode Title="CollectionFilepath property" Url="html/c966ac90-af37-3932-a12a-f25595199f81.htm" />
+  <HelpKINode Title="CompareImage method" Url="html/a050a2cb-1643-e306-aa04-558b275c46dd.htm" />
+  <HelpKINode Title="CompareUrl method" Url="html/daa870cb-6966-d03b-854c-b6917754f3e9.htm" />
+  <HelpKINode Title="Count method" Url="html/69dad743-0d2c-3ae7-0312-10d4f3e45aa9.htm" />
+  <HelpKINode Title="CountCollectionColors method" Url="html/19ce0eb2-ed6f-a542-9b77-9bc4a689d12a.htm" />
+  <HelpKINode Title="CountCollectionColorsColors method" Url="html/c9d38170-c1e2-c1c5-004d-7d4e51af09d7.htm" />
+  <HelpKINode Title="CountCollectionColorsFilepath method" Url="html/cd0f127a-32b3-3a0a-16c4-9a165d75831b.htm" />
+  <HelpKINode Title="CountCollectionColorsMetadata method" Url="html/6791f926-9bae-c8ff-974f-b43552f7613e.htm" />
+  <HelpKINode Title="CountImageColorsImage method" Url="html/599f0e55-75bf-85c1-84b9-16682b306477.htm" />
+  <HelpKINode Title="CountImageColorsUrl method" Url="html/bd81c508-e632-379d-fa32-b52434ca2ee6.htm" />
+  <HelpKINode Title="CountMetadataCollection method" Url="html/fc96b053-8b14-0ba1-8e01-1b4bbd50894c.htm" />
+  <HelpKINode Title="CountMetadataColors method" Url="html/fb93277c-e7c6-139c-3e06-40945faf6ccb.htm" />
+  <HelpKINode Title="CountMetadataFilepaths method" Url="html/42e70e8b-d281-4b01-80b1-50611f360222.htm" />
+  <HelpKINode Title="Data property" Url="html/b061c423-ee8b-53fe-1483-02a9a06e4008.htm" />
+  <HelpKINode Title="Delete method" Url="html/cafa5bb9-7a79-f12c-1b1f-e35d89e90075.htm" />
+  <HelpKINode Title="ExtractCollectionColors method" Url="html/f3e04958-831e-636e-118e-ba6ada0a6109.htm" />
+  <HelpKINode Title="ExtractCollectionColorsColors method" Url="html/d2c658d7-ee56-27a5-cd62-35091988d03d.htm" />
+  <HelpKINode Title="ExtractCollectionColorsFilepath method" Url="html/4006ae92-98e2-9fde-df92-0f9da4444427.htm" />
+  <HelpKINode Title="ExtractCollectionColorsMetadata method" Url="html/e1abb9e5-a9bd-0aac-17d7-3fd186e75963.htm" />
+  <HelpKINode Title="ExtractImageColorsImage method" Url="html/0e672523-1a2a-290f-b49a-57d5e65eb158.htm" />
+  <HelpKINode Title="ExtractImageColorsUrl method" Url="html/4ab4b380-f33b-060c-d766-cb4de605262f.htm" />
+  <HelpKINode Title="Filepath property" Url="html/3e734612-c4ab-61c4-427e-eaa0436e8187.htm" />
+  <HelpKINode Title="Get method" Url="html/bf1ec7ae-d63d-a254-29c2-a1f34463011c.htm" />
+  <HelpKINode Title="GetApiRequest method" Url="html/11fcd251-738d-558c-2e8e-a01d8bcb5553.htm" />
+  <HelpKINode Title="GetApiRequest method" Url="html/864031b0-80c9-b35e-b12f-f4e0d5e58be9.htm" />
+  <HelpKINode Title="GetApiRequest method" Url="html/b0107236-d5b3-d689-e3c0-a3cf32cbc2ff.htm" />
+  <HelpKINode Title="GetApiRequest method" Url="html/d4b6a703-5f36-a6d3-a135-4f837003a9ed.htm" />
+  <HelpKINode Title="GetImagePostFields method" Url="html/d7035ae1-07c2-220b-360d-455caca2baf7.htm" />
+  <HelpKINode Title="GetMetadata method" Url="html/5e46283f-dc78-8794-58ac-8a9e82d43271.htm" />
+  <HelpKINode Title="GetNonImagePostFields method" Url="html/d0a8bc94-cbb5-79c9-77b2-a87fb1a8eb54.htm" />
+  <HelpKINode Title="GetReturnMetadata method" Url="html/95a1c242-4100-8c1a-6e38-5c75592e64ef.htm" />
+  <HelpKINode Title="GetSearchMetadata method" Url="html/9ca0655f-c5cd-bb3c-0b3f-213646879142.htm" />
+  <HelpKINode Title="HttpMessageBuilder class" Url="html/6b9dcba5-eb57-748c-13ba-118158a92999.htm" />
+  <HelpKINode Title="HttpMessageBuilder class" Url="html/90cff91d-e6ee-8a36-b4b3-292717aa7977.htm" />
+  <HelpKINode Title="HttpMessageBuilder class">
+    <HelpKINode Title="about HttpMessageBuilder class" Url="html/90cff91d-e6ee-8a36-b4b3-292717aa7977.htm" />
+    <HelpKINode Title="all members" Url="html/6b9dcba5-eb57-748c-13ba-118158a92999.htm" />
+    <HelpKINode Title="constructor" Url="html/6dc287b5-fbbb-efb5-72b8-cca2b720a2e5.htm" />
+    <HelpKINode Title="methods" Url="html/f43a7d51-2f75-bf7f-9937-c15636549343.htm" />
+    <HelpKINode Title="properties" Url="html/88a14445-68d7-382c-6b8f-20433171611a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpMessageBuilder.Add method" Url="html/4a7bb0fb-4e4a-0937-c9b0-7c40e4c6c22a.htm" />
+  <HelpKINode Title="HttpMessageBuilder.Boundary property" Url="html/0df39b41-8ceb-ea1d-15e7-a300ecc5660b.htm" />
+  <HelpKINode Title="HttpMessageBuilder.GetImagePostFields method" Url="html/d7035ae1-07c2-220b-360d-455caca2baf7.htm" />
+  <HelpKINode Title="HttpMessageBuilder.GetNonImagePostFields method" Url="html/d0a8bc94-cbb5-79c9-77b2-a87fb1a8eb54.htm" />
+  <HelpKINode Title="HttpMessageBuilder.HttpMessageBuilder constructor" Url="html/6dc287b5-fbbb-efb5-72b8-cca2b720a2e5.htm" />
+  <HelpKINode Title="HttpMessageBuilder.ToArray method" Url="html/03b0dd51-8742-6e44-0bd4-b87b821f2f8e.htm" />
+  <HelpKINode Title="HttpMessageBuilderException class" Url="html/732635ba-611a-d8f0-1782-ee33547e49ba.htm" />
+  <HelpKINode Title="HttpMessageBuilderException class" Url="html/9c4536b6-b88b-9164-8a30-a128e478a56d.htm" />
+  <HelpKINode Title="HttpMessageBuilderException class">
+    <HelpKINode Title="about HttpMessageBuilderException class" Url="html/9c4536b6-b88b-9164-8a30-a128e478a56d.htm" />
+    <HelpKINode Title="all members" Url="html/732635ba-611a-d8f0-1782-ee33547e49ba.htm" />
+    <HelpKINode Title="constructor" Url="html/1d286a7c-dcfc-e7db-2e6f-ac55c28790a0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpMessageBuilderException.HttpMessageBuilderException constructor" Url="html/1d286a7c-dcfc-e7db-2e6f-ac55c28790a0.htm" />
+  <HelpKINode Title="HttpUtils class" Url="html/b9253785-37b2-fc0b-bce6-e16e76f08670.htm" />
+  <HelpKINode Title="HttpUtils class" Url="html/c0380541-7207-4bc8-b0f5-d84212fd528c.htm" />
+  <HelpKINode Title="HttpUtils class">
+    <HelpKINode Title="about HttpUtils class" Url="html/b9253785-37b2-fc0b-bce6-e16e76f08670.htm" />
+    <HelpKINode Title="all members" Url="html/c0380541-7207-4bc8-b0f5-d84212fd528c.htm" />
+    <HelpKINode Title="constructor" Url="html/3485d15d-15a5-1ade-0eb0-37ffc04e4e91.htm" />
+    <HelpKINode Title="methods" Url="html/27b639b1-e8ef-58a3-ce56-88c129ff8d68.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpUtils.Get method" Url="html/bf1ec7ae-d63d-a254-29c2-a1f34463011c.htm" />
+  <HelpKINode Title="HttpUtils.HttpUtils constructor" Url="html/3485d15d-15a5-1ade-0eb0-37ffc04e4e91.htm" />
+  <HelpKINode Title="HttpUtils.Post method" Url="html/a012027a-688c-b1b6-8b13-9e573afda407.htm" />
+  <HelpKINode Title="HttpUtilsException class" Url="html/0774d998-a356-5807-00d4-0a199b96a882.htm" />
+  <HelpKINode Title="HttpUtilsException class" Url="html/631cbcba-9907-2fd1-7f49-8d494bce9674.htm" />
+  <HelpKINode Title="HttpUtilsException class">
+    <HelpKINode Title="about HttpUtilsException class" Url="html/631cbcba-9907-2fd1-7f49-8d494bce9674.htm" />
+    <HelpKINode Title="all members" Url="html/0774d998-a356-5807-00d4-0a199b96a882.htm" />
+    <HelpKINode Title="constructor" Url="html/15f0eed8-be69-092e-54c3-ed035a9e0643.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpUtilsException.HttpUtilsException constructor" Url="html/15f0eed8-be69-092e-54c3-ed035a9e0643.htm" />
+  <HelpKINode Title="Image class" Url="html/1a6ed401-434a-cb21-3f95-e9cfe586ab5d.htm" />
+  <HelpKINode Title="Image class" Url="html/b8fbe02e-af3d-47c3-592b-c10f902e2b24.htm" />
+  <HelpKINode Title="Image class">
+    <HelpKINode Title="about Image class" Url="html/b8fbe02e-af3d-47c3-592b-c10f902e2b24.htm" />
+    <HelpKINode Title="all members" Url="html/1a6ed401-434a-cb21-3f95-e9cfe586ab5d.htm" />
+    <HelpKINode Title="constructor" Url="html/9e8f0ac8-ce35-6484-1a26-0c41dc8dea26.htm" />
+    <HelpKINode Title="methods" Url="html/9111fd57-8ecc-4723-417e-83eca83097dc.htm" />
+    <HelpKINode Title="properties" Url="html/2f2ec083-83d0-b0b2-2155-4c2f8755ff83.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Image.CollectionFilepath property" Url="html/c966ac90-af37-3932-a12a-f25595199f81.htm" />
+  <HelpKINode Title="Image.Data property" Url="html/b061c423-ee8b-53fe-1483-02a9a06e4008.htm" />
+  <HelpKINode Title="Image.Filepath property" Url="html/3e734612-c4ab-61c4-427e-eaa0436e8187.htm" />
+  <HelpKINode Title="Image.Image constructor" Url="html/9e8f0ac8-ce35-6484-1a26-0c41dc8dea26.htm" />
+  <HelpKINode Title="Image.ImageURL property" Url="html/5a8587e7-4838-239d-5045-f86c894e5c3a.htm" />
+  <HelpKINode Title="Image.Metadata property" Url="html/72cb1f83-f1c9-3217-d4d4-6c72ff1d5f50.htm" />
+  <HelpKINode Title="Image.ReadData method" Url="html/f30c31ca-e9e2-3cfa-4d79-843dde00d47e.htm" />
+  <HelpKINode Title="ImageURL property" Url="html/5a8587e7-4838-239d-5045-f86c894e5c3a.htm" />
+  <HelpKINode Title="List method" Url="html/e18f2f3c-22b2-7048-78f6-211f5c92f134.htm" />
+  <HelpKINode Title="MatchEngineRequest class" Url="html/c9b0ea43-21bc-d1c9-a4c2-0cd9633e6af8.htm" />
+  <HelpKINode Title="MatchEngineRequest class" Url="html/f7ad9472-b063-bdbe-35c8-349534f8c7ff.htm" />
+  <HelpKINode Title="MatchEngineRequest class">
+    <HelpKINode Title="about MatchEngineRequest class" Url="html/c9b0ea43-21bc-d1c9-a4c2-0cd9633e6af8.htm" />
+    <HelpKINode Title="all members" Url="html/f7ad9472-b063-bdbe-35c8-349534f8c7ff.htm" />
+    <HelpKINode Title="constructor" Url="html/b56d8f52-8536-05b1-c7df-dbf262e09d16.htm" />
+    <HelpKINode Title="methods" Url="html/c72d6273-052c-1f90-9db4-5885a93f9dcd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MatchEngineRequest.AddImage method" Url="html/41d17520-cfda-ef2a-efbf-59090d5b0e50.htm" />
+  <HelpKINode Title="MatchEngineRequest.AddUrl method" Url="html/ea3a62c9-124f-f896-05c9-f729ee3443b3.htm" />
+  <HelpKINode Title="MatchEngineRequest.CompareImage method" Url="html/a050a2cb-1643-e306-aa04-558b275c46dd.htm" />
+  <HelpKINode Title="MatchEngineRequest.CompareUrl method" Url="html/daa870cb-6966-d03b-854c-b6917754f3e9.htm" />
+  <HelpKINode Title="MatchEngineRequest.GetApiRequest method" Url="html/11fcd251-738d-558c-2e8e-a01d8bcb5553.htm" />
+  <HelpKINode Title="MatchEngineRequest.MatchEngineRequest constructor" Url="html/b56d8f52-8536-05b1-c7df-dbf262e09d16.htm" />
+  <HelpKINode Title="MatchEngineRequest.SearchFilepath method" Url="html/c92d8a10-ccf1-a2a7-60c1-17c56acaed3f.htm" />
+  <HelpKINode Title="MatchEngineRequest.SearchImage method" Url="html/9fb0008b-1ea4-18ea-2971-a478f2be572f.htm" />
+  <HelpKINode Title="MatchEngineRequest.SearchUrl method" Url="html/07911a05-f356-d66b-8517-587ada3c8618.htm" />
+  <HelpKINode Title="Metadata property" Url="html/72cb1f83-f1c9-3217-d4d4-6c72ff1d5f50.htm" />
+  <HelpKINode Title="MetadataRequest class" Url="html/6b9113ba-7291-e56b-f36a-f0e7b98ff52b.htm" />
+  <HelpKINode Title="MetadataRequest class" Url="html/a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm" />
+  <HelpKINode Title="MetadataRequest class">
+    <HelpKINode Title="about MetadataRequest class" Url="html/a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm" />
+    <HelpKINode Title="all members" Url="html/6b9113ba-7291-e56b-f36a-f0e7b98ff52b.htm" />
+    <HelpKINode Title="constructor" Url="html/3c28faff-fab9-d588-b65c-2b3c908c2951.htm" />
+    <HelpKINode Title="methods" Url="html/c6ec45b7-99e9-b4da-60e5-60d90b78600b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MetadataRequest.AddExtraSearchOptions method" Url="html/b235f03b-6cea-8f4b-f156-3dc69737fd35.htm" />
+  <HelpKINode Title="MetadataRequest.AddImage method" Url="html/ff75f539-225b-9f4f-7a92-96ca192ff92e.htm" />
+  <HelpKINode Title="MetadataRequest.AddUrl method" Url="html/caa2d02e-348a-e4ae-d5c7-dd39500be4d7.htm" />
+  <HelpKINode Title="MetadataRequest.GetApiRequest method" Url="html/d4b6a703-5f36-a6d3-a135-4f837003a9ed.htm" />
+  <HelpKINode Title="MetadataRequest.GetMetadata method" Url="html/5e46283f-dc78-8794-58ac-8a9e82d43271.htm" />
+  <HelpKINode Title="MetadataRequest.GetReturnMetadata method" Url="html/95a1c242-4100-8c1a-6e38-5c75592e64ef.htm" />
+  <HelpKINode Title="MetadataRequest.GetSearchMetadata method" Url="html/9ca0655f-c5cd-bb3c-0b3f-213646879142.htm" />
+  <HelpKINode Title="MetadataRequest.MetadataRequest constructor" Url="html/3c28faff-fab9-d588-b65c-2b3c908c2951.htm" />
+  <HelpKINode Title="MetadataRequest.UpdateMetadata method" Url="html/e83db1a6-5a93-f086-8bbf-64f10559ce68.htm" />
+  <HelpKINode Title="MulticolorEngineRequest class" Url="html/2ba08501-52b7-d43e-0cb4-688041071e72.htm" />
+  <HelpKINode Title="MulticolorEngineRequest class" Url="html/35a423df-d0a2-8484-b0a0-0899d747e3ba.htm" />
+  <HelpKINode Title="MulticolorEngineRequest class">
+    <HelpKINode Title="about MulticolorEngineRequest class" Url="html/2ba08501-52b7-d43e-0cb4-688041071e72.htm" />
+    <HelpKINode Title="all members" Url="html/35a423df-d0a2-8484-b0a0-0899d747e3ba.htm" />
+    <HelpKINode Title="constructor" Url="html/993a8796-77ca-2768-5e31-98d932dbc177.htm" />
+    <HelpKINode Title="methods" Url="html/00197984-2012-417b-d585-bb6b79810b6f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MulticolorEngineRequest.CountCollectionColors method" Url="html/19ce0eb2-ed6f-a542-9b77-9bc4a689d12a.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.CountCollectionColorsColors method" Url="html/c9d38170-c1e2-c1c5-004d-7d4e51af09d7.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.CountCollectionColorsFilepath method" Url="html/cd0f127a-32b3-3a0a-16c4-9a165d75831b.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.CountCollectionColorsMetadata method" Url="html/6791f926-9bae-c8ff-974f-b43552f7613e.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.CountImageColorsImage method" Url="html/599f0e55-75bf-85c1-84b9-16682b306477.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.CountImageColorsUrl method" Url="html/bd81c508-e632-379d-fa32-b52434ca2ee6.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.CountMetadataCollection method" Url="html/fc96b053-8b14-0ba1-8e01-1b4bbd50894c.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.CountMetadataColors method" Url="html/fb93277c-e7c6-139c-3e06-40945faf6ccb.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.CountMetadataFilepaths method" Url="html/42e70e8b-d281-4b01-80b1-50611f360222.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.ExtractCollectionColors method" Url="html/f3e04958-831e-636e-118e-ba6ada0a6109.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.ExtractCollectionColorsColors method" Url="html/d2c658d7-ee56-27a5-cd62-35091988d03d.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.ExtractCollectionColorsFilepath method" Url="html/4006ae92-98e2-9fde-df92-0f9da4444427.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.ExtractCollectionColorsMetadata method" Url="html/e1abb9e5-a9bd-0aac-17d7-3fd186e75963.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.ExtractImageColorsImage method" Url="html/0e672523-1a2a-290f-b49a-57d5e65eb158.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.ExtractImageColorsUrl method" Url="html/4ab4b380-f33b-060c-d766-cb4de605262f.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.GetApiRequest method" Url="html/864031b0-80c9-b35e-b12f-f4e0d5e58be9.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.MulticolorEngineRequest constructor" Url="html/993a8796-77ca-2768-5e31-98d932dbc177.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.SearchColor method" Url="html/d3eedfc7-b563-d3c1-3ba8-81a2113bbf4a.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.SearchFilepath method" Url="html/e2a9e48c-dffd-9047-598a-2aa0333a66de.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.SearchImage method" Url="html/21ad60af-f2d2-6ce2-73f3-cae57b0395e7.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.SearchMetadata method" Url="html/b8936f87-4135-e5c0-caaf-ac55fe574238.htm" />
+  <HelpKINode Title="MulticolorEngineRequest.SearchUrl method" Url="html/b74be60b-cf73-6d03-87a7-350000404fad.htm" />
+  <HelpKINode Title="Ping method" Url="html/ffd658d3-2694-f109-3cd1-7a4fa93f9a57.htm" />
+  <HelpKINode Title="Post method" Url="html/a012027a-688c-b1b6-8b13-9e573afda407.htm" />
+  <HelpKINode Title="PostApiRequest method" Url="html/61d41f75-9133-df2c-063c-5c991b29406f.htm" />
+  <HelpKINode Title="ReadData method" Url="html/f30c31ca-e9e2-3cfa-4d79-843dde00d47e.htm" />
+  <HelpKINode Title="SearchColor method" Url="html/d3eedfc7-b563-d3c1-3ba8-81a2113bbf4a.htm" />
+  <HelpKINode Title="SearchFilepath method" Url="html/c92d8a10-ccf1-a2a7-60c1-17c56acaed3f.htm" />
+  <HelpKINode Title="SearchFilepath method" Url="html/e2a9e48c-dffd-9047-598a-2aa0333a66de.htm" />
+  <HelpKINode Title="SearchImage method" Url="html/21ad60af-f2d2-6ce2-73f3-cae57b0395e7.htm" />
+  <HelpKINode Title="SearchImage method" Url="html/9fb0008b-1ea4-18ea-2971-a478f2be572f.htm" />
+  <HelpKINode Title="SearchMetadata method" Url="html/b8936f87-4135-e5c0-caaf-ac55fe574238.htm" />
+  <HelpKINode Title="SearchUrl method" Url="html/07911a05-f356-d66b-8517-587ada3c8618.htm" />
+  <HelpKINode Title="SearchUrl method" Url="html/b74be60b-cf73-6d03-87a7-350000404fad.htm" />
+  <HelpKINode Title="TinEye.Services namespace" Url="html/c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm" />
+  <HelpKINode Title="TinEye.Services.HttpMessageBuilder class" Url="html/6b9dcba5-eb57-748c-13ba-118158a92999.htm" />
+  <HelpKINode Title="TinEye.Services.HttpMessageBuilder class" Url="html/90cff91d-e6ee-8a36-b4b3-292717aa7977.htm" />
+  <HelpKINode Title="TinEye.Services.HttpMessageBuilderException class" Url="html/732635ba-611a-d8f0-1782-ee33547e49ba.htm" />
+  <HelpKINode Title="TinEye.Services.HttpMessageBuilderException class" Url="html/9c4536b6-b88b-9164-8a30-a128e478a56d.htm" />
+  <HelpKINode Title="TinEye.Services.HttpUtils class" Url="html/b9253785-37b2-fc0b-bce6-e16e76f08670.htm" />
+  <HelpKINode Title="TinEye.Services.HttpUtils class" Url="html/c0380541-7207-4bc8-b0f5-d84212fd528c.htm" />
+  <HelpKINode Title="TinEye.Services.HttpUtilsException class" Url="html/0774d998-a356-5807-00d4-0a199b96a882.htm" />
+  <HelpKINode Title="TinEye.Services.HttpUtilsException class" Url="html/631cbcba-9907-2fd1-7f49-8d494bce9674.htm" />
+  <HelpKINode Title="TinEye.Services.Image class" Url="html/1a6ed401-434a-cb21-3f95-e9cfe586ab5d.htm" />
+  <HelpKINode Title="TinEye.Services.Image class" Url="html/b8fbe02e-af3d-47c3-592b-c10f902e2b24.htm" />
+  <HelpKINode Title="TinEye.Services.MatchEngineRequest class" Url="html/c9b0ea43-21bc-d1c9-a4c2-0cd9633e6af8.htm" />
+  <HelpKINode Title="TinEye.Services.MatchEngineRequest class" Url="html/f7ad9472-b063-bdbe-35c8-349534f8c7ff.htm" />
+  <HelpKINode Title="TinEye.Services.MetadataRequest class" Url="html/6b9113ba-7291-e56b-f36a-f0e7b98ff52b.htm" />
+  <HelpKINode Title="TinEye.Services.MetadataRequest class" Url="html/a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm" />
+  <HelpKINode Title="TinEye.Services.MulticolorEngineRequest class" Url="html/2ba08501-52b7-d43e-0cb4-688041071e72.htm" />
+  <HelpKINode Title="TinEye.Services.MulticolorEngineRequest class" Url="html/35a423df-d0a2-8484-b0a0-0899d747e3ba.htm" />
+  <HelpKINode Title="TinEye.Services.TinEyeServiceException class" Url="html/6aa6d14a-239c-783b-10c5-ad358409d322.htm" />
+  <HelpKINode Title="TinEye.Services.TinEyeServiceException class" Url="html/6aafac8d-671a-a713-a6f2-e108061c6173.htm" />
+  <HelpKINode Title="TinEye.Services.TinEyeServiceRequest class" Url="html/e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm" />
+  <HelpKINode Title="TinEye.Services.TinEyeServiceRequest class" Url="html/fcc2f73d-45c7-316a-fc16-009a71a58b2a.htm" />
+  <HelpKINode Title="TinEyeServiceException class" Url="html/6aa6d14a-239c-783b-10c5-ad358409d322.htm" />
+  <HelpKINode Title="TinEyeServiceException class" Url="html/6aafac8d-671a-a713-a6f2-e108061c6173.htm" />
+  <HelpKINode Title="TinEyeServiceException class">
+    <HelpKINode Title="about TinEyeServiceException class" Url="html/6aa6d14a-239c-783b-10c5-ad358409d322.htm" />
+    <HelpKINode Title="all members" Url="html/6aafac8d-671a-a713-a6f2-e108061c6173.htm" />
+    <HelpKINode Title="constructor" Url="html/b87cebcb-1189-7e50-854b-a778c80a3769.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TinEyeServiceException.TinEyeServiceException constructor" Url="html/b87cebcb-1189-7e50-854b-a778c80a3769.htm" />
+  <HelpKINode Title="TinEyeServiceRequest class" Url="html/e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm" />
+  <HelpKINode Title="TinEyeServiceRequest class" Url="html/fcc2f73d-45c7-316a-fc16-009a71a58b2a.htm" />
+  <HelpKINode Title="TinEyeServiceRequest class">
+    <HelpKINode Title="about TinEyeServiceRequest class" Url="html/e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm" />
+    <HelpKINode Title="all members" Url="html/fcc2f73d-45c7-316a-fc16-009a71a58b2a.htm" />
+    <HelpKINode Title="constructor" Url="html/61f12955-0023-2ef0-fd0f-c41041a32e4d.htm" />
+    <HelpKINode Title="methods" Url="html/37120fa5-de43-15a3-455b-d77d30e5e57c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TinEyeServiceRequest.Count method" Url="html/69dad743-0d2c-3ae7-0312-10d4f3e45aa9.htm" />
+  <HelpKINode Title="TinEyeServiceRequest.Delete method" Url="html/cafa5bb9-7a79-f12c-1b1f-e35d89e90075.htm" />
+  <HelpKINode Title="TinEyeServiceRequest.GetApiRequest method" Url="html/b0107236-d5b3-d689-e3c0-a3cf32cbc2ff.htm" />
+  <HelpKINode Title="TinEyeServiceRequest.List method" Url="html/e18f2f3c-22b2-7048-78f6-211f5c92f134.htm" />
+  <HelpKINode Title="TinEyeServiceRequest.Ping method" Url="html/ffd658d3-2694-f109-3cd1-7a4fa93f9a57.htm" />
+  <HelpKINode Title="TinEyeServiceRequest.PostApiRequest method" Url="html/61d41f75-9133-df2c-063c-5c991b29406f.htm" />
+  <HelpKINode Title="TinEyeServiceRequest.TinEyeServiceRequest constructor" Url="html/61f12955-0023-2ef0-fd0f-c41041a32e4d.htm" />
+  <HelpKINode Title="ToArray method" Url="html/03b0dd51-8742-6e44-0bd4-b87b821f2f8e.htm" />
+  <HelpKINode Title="UpdateMetadata method" Url="html/e83db1a6-5a93-f086-8bbf-64f10559ce68.htm" />
+</HelpKI>

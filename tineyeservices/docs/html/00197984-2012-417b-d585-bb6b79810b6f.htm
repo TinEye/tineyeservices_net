@@ -1,0 +1,590 @@
+﻿<html xmlns:MSHelp="http://msdn.microsoft.com/mshelp" xmlns:mshelp="http://msdn.microsoft.com/mshelp" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>MulticolorEngineRequest Methods</title>
+    <meta name="Language" content="en-us" />
+    <meta name="System.Keywords" content="MulticolorEngineRequest class, methods" />
+    <meta name="Microsoft.Help.Id" content="Methods.T:TinEye.Services.MulticolorEngineRequest" />
+    <meta name="Microsoft.Help.ContentType" content="Reference" />
+    <link rel="stylesheet" type="text/css" href="../styles/Presentation.css" />
+    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
+    <script type="text/javascript" src="../scripts/SplitScreen.js"> </script>
+    <script type="text/javascript" src="../scripts/Dropdown.js"> </script>
+    <script type="text/javascript" src="../scripts/script_manifold.js"> </script>
+    <script type="text/javascript" src="../scripts/script_feedBack.js"> </script>
+    <script type="text/javascript" src="../scripts/CheckboxMenu.js"> </script>
+    <script type="text/javascript" src="../scripts/CommonUtilities.js"> </script>
+    <meta name="container" content="TinEye.Services" />
+    <meta name="file" content="00197984-2012-417b-d585-bb6b79810b6f" />
+    <meta name="guid" content="00197984-2012-417b-d585-bb6b79810b6f" />
+    <xml>
+      <MSHelp:Attr Name="AssetID" Value="Methods.T:TinEye.Services.MulticolorEngineRequest" />
+      <MSHelp:TOCTitle Title="MulticolorEngineRequest Methods" />
+      <MSHelp:RLTitle Title="MulticolorEngineRequest Methods (TinEye.Services)" />
+      <MSHelp:Keyword Index="A" Term="Methods.T:TinEye.Services.MulticolorEngineRequest" />
+      <MSHelp:Keyword Index="A" Term="frlrfTinEyeServicesMulticolorEngineRequestMethodsTopic" />
+      <MSHelp:Keyword Index="K" Term="MulticolorEngineRequest class, methods" />
+      <MSHelp:Attr Name="DevLang" Value="CSharp" />
+      <MSHelp:Attr Name="Locale" Value="en-us" />
+      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
+      <MSHelp:Attr Name="TopicType" Value="apiref" />
+      <MSHelp:Attr Name="AssemblyVersion" Value="1.2.3.0" />
+    </xml>
+  </head>
+  <body>
+    <input type="hidden" id="userDataCache" class="userDataStyle" />
+    <input type="hidden" id="hiddenScrollOffset" />
+    <img id="collapseImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" alt="Collapse image" title="Collapse image" />
+    <img id="expandImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" alt="Expand Image" title="Expand Image" />
+    <img id="collapseAllImage" style="display:none; height:0; width:0;" src="../icons/collapse_all.gif" />
+    <img id="expandAllImage" style="display:none; height:0; width:0;" src="../icons/expand_all.gif" />
+    <img id="dropDownImage" style="display:none; height:0; width:0;" src="../icons/dropdown.gif" />
+    <img id="dropDownHoverImage" style="display:none; height:0; width:0;" src="../icons/dropdownHover.gif" />
+    <img id="copyImage" style="display:none; height:0; width:0;" src="../icons/copycode.gif" alt="Copy image" title="Copy image" />
+    <img id="copyHoverImage" style="display:none; height:0; width:0;" src="../icons/copycodeHighlight.gif" alt="CopyHover image" title="CopyHover image" />
+    <div id="header">
+      <table id="topTable" cellspacing="0" cellpadding="0">
+        <tr>
+          <td>
+            <span onclick="ExpandCollapseAll(toggleAllImage)" style="cursor:default;" onkeypress="ExpandCollapseAll_CheckKey(toggleAllImage, event)" tabindex="0">
+              <img ID="toggleAllImage" class="toggleAll" src="../icons/collapse_all.gif" /> <label id="collapseAllLabel" for="toggleAllImage" style="display: none;">Collapse All</label><label id="expandAllLabel" for="toggleAllImage" style="display: none;">Expand All</label> </span>
+            <span>    </span>
+            <span id="memberOptionsDropdown" class="filter" tabindex="0">
+              <img id="memberOptionsDropdownImage" src="../icons/dropdown.gif" /> <label id="memberOptionsMenuAllLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Show All </nobr></label><label id="memberOptionsMenuMultipleLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Filtered </nobr></label><label id="memberOptionsMenuProtectedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Filtered </nobr></label><label id="memberOptionsMenuInheritedLabel" for="memberOptionsDropdownImage" style="display: none;"><nobr>Members: Filtered </nobr></label></span>
+          </td>
+        </tr>
+      </table>
+      <div id="devlangsMenu">
+        <input id="CSharpCheckbox" type="checkbox" data="CSharp,cs,'persist'" value="on" onClick="SetLanguage(this)" />
+        <label class="checkboxLabel" for="CSharpCheckbox">C#</label>
+        <br />
+      </div>
+      <div id="memberOptionsMenu">
+        <input id="ProtectedCheckbox" type="checkbox" data="Protected" value="on" onClick="SetMemberOptions(this, 'vis')" />
+        <label class="checkboxLabel" for="ProtectedCheckbox">Include Protected Members</label>
+        <br />
+        <input id="InheritedCheckbox" type="checkbox" data="Inherited" value="on" onClick="SetMemberOptions(this, 'decl')" />
+        <label class="checkboxLabel" for="InheritedCheckbox">Include Inherited Members</label>
+        <br />
+      </div>
+      <table id="bottomTable" cellpadding="0" cellspacing="0">
+        <tr id="headerTableRow1">
+          <td align="left">
+            <span id="runningHeaderText">TinEye Services library documentation</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow2">
+          <td align="left">
+            <span id="nsrTitle">MulticolorEngineRequest Methods</span>
+          </td>
+        </tr>
+        <tr id="headerTableRow3">
+          <td align="left">
+            <a href="2ba08501-52b7-d43e-0cb4-688041071e72.htm">MulticolorEngineRequest Class</a> <a href="#seeAlsoToggle" onclick="OpenSection(seeAlsoToggle)">See Also</a> </td>
+        </tr>
+      </table>
+      <table id="gradientTable">
+        <tr>
+          <td class="nsrBottom" background="../icons/gradient.gif" />
+        </tr>
+      </table>
+    </div>
+    <div id="mainSection">
+      <div id="mainBody">
+        <div id="allHistory" class="saveHistory" onsave="saveAll()" onload="loadAll()" />
+        <span style="color: DarkGray"></span>
+        <p>The <a href="2ba08501-52b7-d43e-0cb4-688041071e72.htm">MulticolorEngineRequest</a> type exposes the following members.</p>
+        <h1 class="heading">
+          <span onclick="ExpandCollapse(methodTableToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(methodTableToggle, event)" tabindex="0">
+            <img id="methodTableToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Methods</span>
+        </h1>
+        <div id="methodTableSection" class="section" name="collapseableSection" style="">
+          <table id="memberList" class="members" frame="lhs" cellpadding="2">
+            <col width="10%" />
+            <tr>
+              <th class="iconColumn">
+               
+            </th>
+              <th class="nameColumn">Name</th>
+              <th class="descriptionColumn">Description</th>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="b235f03b-6cea-8f4b-f156-3dc69737fd35.htm">AddExtraSearchOptions</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add common search options to API POST request.
+            </div> (Inherited from <a href="a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm">MetadataRequest</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="ff75f539-225b-9f4f-7a92-96ca192ff92e.htm">AddImage</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add the images in <span class="code">images</span> to the hosted image collection.
+            </div> (Inherited from <a href="a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm">MetadataRequest</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="caa2d02e-348a-e4ae-d5c7-dd39500be4d7.htm">AddUrl</a>
+              </td>
+              <td>
+                <div class="summary">
+            Add the images in <span class="code">images</span> to the hosted image collection using their URLs.
+            </div> (Inherited from <a href="a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm">MetadataRequest</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="69dad743-0d2c-3ae7-0312-10d4f3e45aa9.htm">Count</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get the count of all the images in the hosted image collection.
+            </div> (Inherited from <a href="e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">TinEyeServiceRequest</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="19ce0eb2-ed6f-a542-9b77-9bc4a689d12a.htm">CountCollectionColors</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get counts for each color specified in a color palette (list of colors) from the
+            images in the hosted image collection.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="c9d38170-c1e2-c1c5-004d-7d4e51af09d7.htm">CountCollectionColorsColors</a>
+              </td>
+              <td>
+                <div class="summary">
+            Filter images in the hosted image collection by color and then get counts for
+            each color specified in a color palette (list of colors) from the filtered image list.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="cd0f127a-32b3-3a0a-16c4-9a165d75831b.htm">CountCollectionColorsFilepath</a>
+              </td>
+              <td>
+                <div class="summary">
+            Given a list of file paths from the hosted image collection, and a color palette
+            (list of colors), get a count for each color specifying the number of images that
+            contain the color.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="6791f926-9bae-c8ff-974f-b43552f7613e.htm">CountCollectionColorsMetadata</a>
+              </td>
+              <td>
+                <div class="summary">
+            Given a color palette (list of colors) and metadata, get a count for each color specifying
+            the number of the hosted image collection images that contain that color, filtered by the
+            metadata. Metadata can be set to null to count colors from all images in the collection.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="599f0e55-75bf-85c1-84b9-16682b306477.htm">CountImageColorsImage</a>
+              </td>
+              <td>
+                <div class="summary">
+            Upload a list of images to the API and a color palette to get a count for
+            each color specifying how many of the input images contain that color.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="bd81c508-e632-379d-fa32-b52434ca2ee6.htm">CountImageColorsUrl</a>
+              </td>
+              <td>
+                <div class="summary">
+            Upload a list of image URLs to the API and a color palette to get a count for
+            each color specifying how many of the images at the given URLs contain that color.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="fc96b053-8b14-0ba1-8e01-1b4bbd50894c.htm">CountMetadataCollection</a>
+              </td>
+              <td>
+                <div class="summary">
+            Given one of more metadata queries, get a counter for each query specifying how many
+            of the collection images match the query. The images counted in the results may
+            be filtered using json metadata.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="fb93277c-e7c6-139c-3e06-40945faf6ccb.htm">CountMetadataColors</a>
+              </td>
+              <td>
+                <div class="summary">
+            Given one of more colors and metadata queries, get a counter specifying
+            how many of the collection images with the given colors match each query.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="42e70e8b-d281-4b01-80b1-50611f360222.htm">CountMetadataFilepaths</a>
+              </td>
+              <td>
+                <div class="summary">
+            Given one or more hosted image filepaths and metadata queries, get a counter
+            specifying how many of the images from the specified filepaths match each query.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="cafa5bb9-7a79-f12c-1b1f-e35d89e90075.htm">Delete</a>
+              </td>
+              <td>
+                <div class="summary">
+            Delete images from the collection.
+            </div> (Inherited from <a href="e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">TinEyeServiceRequest</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="f3e04958-831e-636e-118e-ba6ada0a6109.htm">ExtractCollectionColors</a>
+              </td>
+              <td>
+                <div class="summary">
+            Extract the dominant colors in the hosted image collection.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="d2c658d7-ee56-27a5-cd62-35091988d03d.htm">ExtractCollectionColorsColors</a>
+              </td>
+              <td>
+                <div class="summary">
+            Extract the dominant colors in the hosted image collection filtered by colors.
+            The colors passed in are used to get a set of images that have those colors, and
+            then colors are extracted from that set of images and returned.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="4006ae92-98e2-9fde-df92-0f9da4444427.htm">ExtractCollectionColorsFilepath</a>
+              </td>
+              <td>
+                <div class="summary">
+            Extract the dominant colors given the filepaths of images in the hosted 
+            image collection.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="e1abb9e5-a9bd-0aac-17d7-3fd186e75963.htm">ExtractCollectionColorsMetadata</a>
+              </td>
+              <td>
+                <div class="summary">
+            Extract the dominant colors in the hosted image collection filtered by
+            image metadata. Metadata can be set to null to extract colors from all
+            images in the collection.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="0e672523-1a2a-290f-b49a-57d5e65eb158.htm">ExtractImageColorsImage</a>
+              </td>
+              <td>
+                <div class="summary">
+            Extract the dominant colors from the images passed in.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="4ab4b380-f33b-060c-d766-cb4de605262f.htm">ExtractImageColorsUrl</a>
+              </td>
+              <td>
+                <div class="summary">
+            Extract the dominant colors from images at the given URLs.
+            </div>
+              </td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="2a198715-52a1-6026-bc56-a60c22f6d081.htm">GetApiRequest(String)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Issue an HTTP GET request to the specified API <span class="code">method</span>.
+            </div> (Inherited from <a href="e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">TinEyeServiceRequest</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="a91bf14c-9c80-1e6b-ddce-5760076d969e.htm">GetApiRequest(String, String)</a>
+              </td>
+              <td>
+                <div class="summary">
+            Issue an HTTP GET request to the specified API <span class="code">method</span> with the 
+            given API method <span class="code">queryParams</span>.
+            </div> (Inherited from <a href="e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">TinEyeServiceRequest</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="5e46283f-dc78-8794-58ac-8a9e82d43271.htm">GetMetadata</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get the keywords from the index associated with the images with the given collection
+            image filepaths.
+            </div> (Inherited from <a href="a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm">MetadataRequest</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="95a1c242-4100-8c1a-6e38-5c75592e64ef.htm">GetReturnMetadata</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get the metadata that can be returned by a search method along with each match.
+            </div> (Inherited from <a href="a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm">MetadataRequest</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="9ca0655f-c5cd-bb3c-0b3f-213646879142.htm">GetSearchMetadata</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get the metadata tree structure that can be searched.
+            </div> (Inherited from <a href="a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm">MetadataRequest</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="e18f2f3c-22b2-7048-78f6-211f5c92f134.htm">List</a>
+              </td>
+              <td>
+                <div class="summary">
+            Get a list of images from the collection.
+            </div> (Inherited from <a href="e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">TinEyeServiceRequest</a>.)</td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="ffd658d3-2694-f109-3cd1-7a4fa93f9a57.htm">Ping</a>
+              </td>
+              <td>
+                <div class="summary">
+            Check if the API server is running.
+            </div> (Inherited from <a href="e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">TinEyeServiceRequest</a>.)</td>
+            </tr>
+            <tr data="protected;inherited;notNetfw;">
+              <td>
+                <img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" />
+              </td>
+              <td>
+                <a href="61d41f75-9133-df2c-063c-5c991b29406f.htm">PostApiRequest</a>
+              </td>
+              <td>
+                <div class="summary">
+            Issue an HTTP POST request with the given <span class="code">postRequest</span> to the specified 
+            API <span class="code">method</span>.
+            </div> (Inherited from <a href="e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">TinEyeServiceRequest</a>.)</td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="d3eedfc7-b563-d3c1-3ba8-81a2113bbf4a.htm">SearchColor</a>
+              </td>
+              <td>
+                <div class="summary">
+            Do a color search against the collection using specified colors and return matches with
+            corresponding scores.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="e2a9e48c-dffd-9047-598a-2aa0333a66de.htm">SearchFilepath</a>
+              </td>
+              <td>
+                <div class="summary">
+            Do a color search against the collection using the filepath of an image in the 
+            collection and return matches with corresponding scores.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="21ad60af-f2d2-6ce2-73f3-cae57b0395e7.htm">SearchImage</a>
+              </td>
+              <td>
+                <div class="summary">
+            Do a color search against the collection using an image and return matches with
+            corresponding scores.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="b8936f87-4135-e5c0-caaf-ac55fe574238.htm">SearchMetadata</a>
+              </td>
+              <td>
+                <div class="summary">
+            Search against the collection using metadata and return matches with
+            corresponding scores.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;declared;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="b74be60b-cf73-6d03-87a7-350000404fad.htm">SearchUrl</a>
+              </td>
+              <td>
+                <div class="summary">
+            Do a color search against the collection using an image URL and return matches with 
+            corresponding scores.
+            </div>
+              </td>
+            </tr>
+            <tr data="public;inherited;notNetfw;">
+              <td>
+                <img src="../icons/pubmethod.gif" alt="Public method" title="Public method" />
+              </td>
+              <td>
+                <a href="e83db1a6-5a93-f086-8bbf-64f10559ce68.htm">UpdateMetadata</a>
+              </td>
+              <td>
+                <div class="summary">
+            Update the metadata for a list of images already present in the hosted image collection.
+            </div> (Inherited from <a href="a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm">MetadataRequest</a>.)</td>
+            </tr>
+          </table>
+        </div>
+        <h1 class="heading">
+          <span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0">
+            <img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span>
+        </h1>
+        <div id="seeAlsoSection" class="section" name="collapseableSection" style="">
+          <div class="seeAlsoStyle">
+            <a href="2ba08501-52b7-d43e-0cb4-688041071e72.htm">MulticolorEngineRequest Class</a>
+          </div>
+          <div class="seeAlsoStyle">
+            <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <div class="footerLine">
+          <img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" />
+        </div>
+        <A NAME="feedback"></A>
+        <span id="fb" class="feedbackcss"></span>
+        <p />Copyright (C) 2011-2013 Idee Inc. All rights reserved worldwide.</div>
+    </div>
+  </body>
+</html>
