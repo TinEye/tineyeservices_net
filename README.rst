@@ -19,7 +19,7 @@ newtonsoft Json.Net for parsing and handling JSON objects - http://json.codeplex
 Documentation
 -------------
 
-View `documentation <http://services.tineye.com/library/net/docs/>`_.
+View `documentation <http://services.tineye.com/library/net/docs/Index.html>`_.
 
 Support
 -------
