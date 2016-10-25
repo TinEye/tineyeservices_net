@@ -49,12 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="WineEngineRequest.cs" />
     <Compile Include="HttpMessageBuilder.cs" />
     <Compile Include="HttpMessageBuilderException.cs" />
     <Compile Include="HttpUtils.cs" />
     <Compile Include="HttpUtilsException.cs" />
     <Compile Include="Image.cs" />
     <Compile Include="MetadataRequest.cs" />
+    <Compile Include="MobileEngineRequest.cs" />
     <Compile Include="MulticolorEngineRequest.cs" />
     <Compile Include="MatchEngineRequest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
