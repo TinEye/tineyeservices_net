@@ -11,7 +11,7 @@ namespace TinEye.Services
     /// <para>Provides methods to call the MobileEngine API methods.</para>
     /// <note>For a list of available MobileEngine API methods, refer to the documentation for your
     /// MobileEngine API installation.</note>
-    /// <para>Copyright (C) 2016 Idee Inc. All rights reserved worldwide.</para>
+    /// <para>Copyright (C) 2016 Idée Inc. All rights reserved worldwide.</para>
     /// </summary>
     public class MobileEngineRequest : MatchEngineRequest
     {
@@ -29,7 +29,7 @@ namespace TinEye.Services
 
         /// <summary>
         /// Initializes a new instance of the MobileEngineRequest class to issue HTTP requests 
-        /// using HTTP basic authentication to the MobileEngine API .
+        /// using HTTP basic authentication to the MobileEngine API.
         /// </summary>
         /// <param name="apiURL">The MobileEngine API URL.</param>
         /// <param name="username">The username for HTTP basic authentication when connecting to

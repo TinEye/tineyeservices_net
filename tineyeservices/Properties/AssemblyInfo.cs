@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("TinEyeServices")]
 [assembly: AssemblyDescription("Provides classes to access the TinEye Services APIs.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Idee Inc.")]
+[assembly: AssemblyCompany("Idée Inc.")]
 [assembly: AssemblyProduct("TinEyeServices")]
-[assembly: AssemblyCopyright("Copyright © Ideeinc 2013")]
+[assembly: AssemblyCopyright("Copyright © Idée Inc. 2013-2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.2.3.0")]
-[assembly: AssemblyFileVersion("1.2.3.0")]
+[assembly: AssemblyVersion("1.6.0.0")]
+[assembly: AssemblyFileVersion("1.6.0.0")]
