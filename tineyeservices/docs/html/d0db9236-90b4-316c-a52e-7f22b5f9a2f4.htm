@@ -8,7 +8,7 @@
     <meta name="Description" content="Add a new boolean field to the POST message." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <link rel="stylesheet" type="text/css" href="../styles/Presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/SplitScreen.js"> </script>
     <script type="text/javascript" src="../scripts/Dropdown.js"> </script>
@@ -19,21 +19,7 @@
     <meta name="container" content="TinEye.Services" />
     <meta name="file" content="d0db9236-90b4-316c-a52e-7f22b5f9a2f4" />
     <meta name="guid" content="d0db9236-90b4-316c-a52e-7f22b5f9a2f4" />
-    <xml>
-      <MSHelp:Attr Name="AssetID" Value="M:TinEye.Services.HttpMessageBuilder.Add(System.String,System.Boolean)" />
-      <MSHelp:TOCTitle Title="Add Method (String, Boolean)" />
-      <MSHelp:RLTitle Title="HttpMessageBuilder.Add Method (String, Boolean) (TinEye.Services)" />
-      <MSHelp:Keyword Index="A" Term="M:TinEye.Services.HttpMessageBuilder.Add(System.String,System.Boolean)" />
-      <MSHelp:Attr Name="APIType" Value="Managed" />
-      <MSHelp:Attr Name="APILocation" Value="TinEyeServices.dll" />
-      <MSHelp:Attr Name="APIName" Value="TinEye.Services.HttpMessageBuilder.Add" />
-      <MSHelp:Attr Name="DevLang" Value="CSharp" />
-      <MSHelp:Attr Name="Locale" Value="en-us" />
-      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
-      <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Add a new boolean field to the POST message." />
-      <MSHelp:Attr Name="AssemblyVersion" Value="1.2.3.0" />
-    </xml>
+    
   </head>
   <body>
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -78,7 +64,9 @@
       </table>
       <table id="gradientTable">
         <tr>
-          <td class="nsrBottom" background="../icons/gradient.gif" />
+          <td class="nsrBottom" id="headerBottom">
+            <img id="headerBottomImage" style="display: none;" src="../icons/gradient.gif" />
+          </td>
         </tr>
       </table>
     </div>
@@ -90,19 +78,19 @@
             Add a new boolean field to the POST message.
             </div>
         <p />
-        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.2.3.0 (1.2.3.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">Add</span>(
+        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.6.0.0 (1.6.0.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">Add</span>(
 	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">fieldName</span>,
 	<a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">bool</a> <span class="parameter">fieldValue</span>
 )</pre></td></tr></table></span></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="fieldName"><dt><span class="parameter">fieldName</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>String</a><br />Name of POST message field.</dd></dl><dl paramName="fieldValue"><dt><span class="parameter">fieldValue</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>Boolean</a><br />Value of POST message field.</dd></dl></div></div><h1 class="heading"><span onclick="ExpandCollapse(exceptionsToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(exceptionsToggle, event)" tabindex="0"><img id="exceptionsToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Exceptions</span></h1><div id="exceptionsSection" class="section" name="collapseableSection" style=""><div class="tableSection"><table width="100%" cellspacing="2" cellpadding="5" frame="lhs"><tr><th class="exceptionNameColumn">Exception</th><th class="exceptionConditionColumn">Condition</th></tr><tr><td><a href="http://msdn2.microsoft.com/en-us/library/27426hcy" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>ArgumentNullException</a></td><td><span class="parameter">fieldName</span> is Nothing.
             </td></tr><tr><td><a href="http://msdn2.microsoft.com/en-us/library/3w1b3114" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>ArgumentException</a></td><td>The POST message already has a field named 
-            <span class="parameter">fieldName</span>.</td></tr></table></div></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><div class="seeAlsoStyle"><a href="90cff91d-e6ee-8a36-b4b3-292717aa7977.htm">HttpMessageBuilder Class</a></div><div class="seeAlsoStyle"><a href="4a7bb0fb-4e4a-0937-c9b0-7c40e4c6c22a.htm">Add Overload</a></div><div class="seeAlsoStyle"><a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a></div></div></div>
+            <span class="parameter">fieldName</span>.</td></tr></table></div></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><div class="seeAlsoStyle"><a href="90cff91d-e6ee-8a36-b4b3-292717aa7977.htm">HttpMessageBuilder Class</a></div><div class="seeAlsoStyle"><a href="6b9dcba5-eb57-748c-13ba-118158a92999.htm">HttpMessageBuilder Members</a></div><div class="seeAlsoStyle"><a href="4a7bb0fb-4e4a-0937-c9b0-7c40e4c6c22a.htm">Add Overload</a></div><div class="seeAlsoStyle"><a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a></div></div></div>
       <div id="footer">
         <div class="footerLine">
           <img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" />
         </div>
         <A NAME="feedback"></A>
         <span id="fb" class="feedbackcss"></span>
-        <p />Copyright (C) 2011-2013 Idee Inc. All rights reserved worldwide.</div>
+        <p />Copyright (C) 2011-2016 Idée Inc. All rights reserved worldwide.</div>
     </div>
   </body>
 </html>

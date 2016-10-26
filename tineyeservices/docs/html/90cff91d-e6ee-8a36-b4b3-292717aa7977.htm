@@ -12,7 +12,7 @@
     <meta name="Description" content="Class used to make a message to POST.Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <link rel="stylesheet" type="text/css" href="../styles/Presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/SplitScreen.js"> </script>
     <script type="text/javascript" src="../scripts/Dropdown.js"> </script>
@@ -23,27 +23,7 @@
     <meta name="container" content="TinEye.Services" />
     <meta name="file" content="90cff91d-e6ee-8a36-b4b3-292717aa7977" />
     <meta name="guid" content="90cff91d-e6ee-8a36-b4b3-292717aa7977" />
-    <xml>
-      <MSHelp:Attr Name="AssetID" Value="T:TinEye.Services.HttpMessageBuilder" />
-      <MSHelp:TOCTitle Title="HttpMessageBuilder Class" />
-      <MSHelp:RLTitle Title="HttpMessageBuilder Class (TinEye.Services)" />
-      <MSHelp:Keyword Index="A" Term="T:TinEye.Services.HttpMessageBuilder" />
-      <MSHelp:Keyword Index="A" Term="frlrfTinEyeServicesHttpMessageBuilderClassTopic" />
-      <MSHelp:Keyword Index="K" Term="HttpMessageBuilder class" />
-      <MSHelp:Keyword Index="K" Term="TinEye.Services.HttpMessageBuilder class" />
-      <MSHelp:Keyword Index="K" Term="HttpMessageBuilder class, about HttpMessageBuilder class" />
-      <MSHelp:Keyword Index="F" Term="TinEye.Services.HttpMessageBuilder" />
-      <MSHelp:Attr Name="HelpPriority" Value="2" />
-      <MSHelp:Attr Name="APIType" Value="Managed" />
-      <MSHelp:Attr Name="APILocation" Value="TinEyeServices.dll" />
-      <MSHelp:Attr Name="APIName" Value="TinEye.Services.HttpMessageBuilder" />
-      <MSHelp:Attr Name="DevLang" Value="CSharp" />
-      <MSHelp:Attr Name="Locale" Value="en-us" />
-      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
-      <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Class used to make a message to POST.Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide." />
-      <MSHelp:Attr Name="AssemblyVersion" Value="1.2.3.0" />
-    </xml>
+
     <link type="text/css" rel="stylesheet" href="../styles/highlight.css" />
     <script type="text/javascript" src="../scripts/highlight.js"> </script>
   </head>
@@ -90,7 +70,9 @@
       </table>
       <table id="gradientTable">
         <tr>
-          <td class="nsrBottom" background="../icons/gradient.gif" />
+          <td class="nsrBottom" id="headerBottom">
+            <img id="headerBottomImage" style="display: none;" src="../icons/gradient.gif" />
+          </td>
         </tr>
       </table>
     </div>
@@ -103,11 +85,11 @@
           <p>Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide.</p>
         </div>
         <p />
-        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.2.3.0 (1.2.3.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">HttpMessageBuilder</span></pre></td></tr></table></span></div></div><h1 class="heading"><span onclick="ExpandCollapse(remarksToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(remarksToggle, event)" tabindex="0"><img id="remarksToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Remarks</span></h1><div id="remarksSection" class="section" name="collapseableSection" style="">
+        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.6.0.0 (1.6.0.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">HttpMessageBuilder</span></pre></td></tr></table></span></div></div><h1 class="heading"><span onclick="ExpandCollapse(remarksToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(remarksToggle, event)" tabindex="0"><img id="remarksToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Remarks</span></h1><div id="remarksSection" class="section" name="collapseableSection" style="">
             Different field types and/or images can be added to the POST message using the <span class="code">Add</span>
             methods. Once all fields and images have been added, the full POST message to send can
             be generated in bytes using the <span class="code">ToArray</span> method.
-            <h1 class="heading"><span onclick="ExpandCollapse(exampleToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(exampleToggle, event)" tabindex="0"><img id="exampleToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Examples</span></h1><div id="exampleSection" class="section" name="collapseableSection" style=""><span id="cbc_1" x-lang="CSharp" codeLanguage="CSharp"><div class="highlight-title"><span class="highlight-copycode" onkeypress="javascript:CopyColorizedCodeCheckKey(this.parentNode, event);" tabindex="0" onmouseover="CopyCodeChangeIcon(this)" onmouseout="CopyCodeChangeIcon(this)" onclick="javascript:CopyColorizedCode(this.parentNode);"><img style="margin-right: 5px;" src="../icons/CopyCode.gif" />Copy</span>C#</div><div class="code"><pre xml:space="preserve"><span class="highlight-comment">// Example how to build a POST message for a MatchEngine search call.</span>
+            <h1 class="heading"><span onclick="ExpandCollapse(exampleToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(exampleToggle, event)" tabindex="0"><img id="exampleToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Examples</span></h1><div id="exampleSection" class="section" name="collapseableSection" style=""><div class="code"><span codeLanguage="other"><table width="100%" cellspacing="0" cellpadding="0"><tr><th colspan="2"> </th></tr><tr><td colspan="2"><pre xml:space="preserve"><span class="highlight-comment">// Example how to build a POST message for a MatchEngine search call.</span>
 Image img = <span class="highlight-keyword">new</span> Image(<span class="highlight-literal">@"C:\path\to\image.jpg"</span>, <span class="highlight-literal">"/api/path/to/image.jpg"</span>);
 
 HttpMessageBuilder messageBuilder = <span class="highlight-keyword">new</span> HttpMesssageBuilder();
@@ -118,14 +100,14 @@ messageBuilder.Add(<span class="highlight-literal">"min_score"</span>, <span cla
 messageBuilder.Add(<span class="highlight-literal">"limit"</span>, <span class="highlight-number">100</span>);
 messageBuilder.Add(<span class="highlight-literal">"check_horizontal_flip"</span>, <span class="highlight-keyword">false</span>);
 
-<span class="highlight-keyword">byte</span>[] fullMessageToPost = messageBuilder.ToArray();</pre></div></span></div></div><h1 class="heading"><span onclick="ExpandCollapse(familyToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(familyToggle, event)" tabindex="0"><img id="familyToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Inheritance Hierarchy</span></h1><div id="familySection" class="section" name="collapseableSection" style=""><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>Object</a><br />  <span class="selflink">TinEye.Services<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HttpMessageBuilder</span><br /></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><div class="seeAlsoStyle"><a href="6b9dcba5-eb57-748c-13ba-118158a92999.htm">HttpMessageBuilder Members</a></div><div class="seeAlsoStyle"><a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a></div></div></div>
+<span class="highlight-keyword">byte</span>[] fullMessageToPost = messageBuilder.ToArray();</pre></td></tr></table></span></div></div></div><h1 class="heading"><span onclick="ExpandCollapse(familyToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(familyToggle, event)" tabindex="0"><img id="familyToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Inheritance Hierarchy</span></h1><div id="familySection" class="section" name="collapseableSection" style=""><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>Object</a><br />  <span class="selflink">TinEye.Services<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HttpMessageBuilder</span><br /></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><div class="seeAlsoStyle"><a href="6b9dcba5-eb57-748c-13ba-118158a92999.htm">HttpMessageBuilder Members</a></div><div class="seeAlsoStyle"><a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a></div></div></div>
       <div id="footer">
         <div class="footerLine">
           <img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" />
         </div>
         <A NAME="feedback"></A>
         <span id="fb" class="feedbackcss"></span>
-        <p />Copyright (C) 2011-2013 Idee Inc. All rights reserved worldwide.</div>
+        <p />Copyright (C) 2011-2016 Idée Inc. All rights reserved worldwide.</div>
     </div>
   </body>
 </html>

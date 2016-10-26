@@ -12,7 +12,7 @@
     <meta name="Description" content="Provides methods to issue HTTP GET or POST requests.Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <link rel="stylesheet" type="text/css" href="../styles/Presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/SplitScreen.js"> </script>
     <script type="text/javascript" src="../scripts/Dropdown.js"> </script>
@@ -23,27 +23,7 @@
     <meta name="container" content="TinEye.Services" />
     <meta name="file" content="b9253785-37b2-fc0b-bce6-e16e76f08670" />
     <meta name="guid" content="b9253785-37b2-fc0b-bce6-e16e76f08670" />
-    <xml>
-      <MSHelp:Attr Name="AssetID" Value="T:TinEye.Services.HttpUtils" />
-      <MSHelp:TOCTitle Title="HttpUtils Class" />
-      <MSHelp:RLTitle Title="HttpUtils Class (TinEye.Services)" />
-      <MSHelp:Keyword Index="A" Term="T:TinEye.Services.HttpUtils" />
-      <MSHelp:Keyword Index="A" Term="frlrfTinEyeServicesHttpUtilsClassTopic" />
-      <MSHelp:Keyword Index="K" Term="HttpUtils class" />
-      <MSHelp:Keyword Index="K" Term="TinEye.Services.HttpUtils class" />
-      <MSHelp:Keyword Index="K" Term="HttpUtils class, about HttpUtils class" />
-      <MSHelp:Keyword Index="F" Term="TinEye.Services.HttpUtils" />
-      <MSHelp:Attr Name="HelpPriority" Value="2" />
-      <MSHelp:Attr Name="APIType" Value="Managed" />
-      <MSHelp:Attr Name="APILocation" Value="TinEyeServices.dll" />
-      <MSHelp:Attr Name="APIName" Value="TinEye.Services.HttpUtils" />
-      <MSHelp:Attr Name="DevLang" Value="CSharp" />
-      <MSHelp:Attr Name="Locale" Value="en-us" />
-      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
-      <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Provides methods to issue HTTP GET or POST requests.Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide." />
-      <MSHelp:Attr Name="AssemblyVersion" Value="1.2.3.0" />
-    </xml>
+    
   </head>
   <body>
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -88,7 +68,9 @@
       </table>
       <table id="gradientTable">
         <tr>
-          <td class="nsrBottom" background="../icons/gradient.gif" />
+          <td class="nsrBottom" id="headerBottom">
+            <img id="headerBottomImage" style="display: none;" src="../icons/gradient.gif" />
+          </td>
         </tr>
       </table>
     </div>
@@ -101,7 +83,7 @@
           <p>Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide.</p>
         </div>
         <p />
-        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.2.3.0 (1.2.3.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">HttpUtils</span></pre></td></tr></table></span></div></div><h1 class="heading"><span onclick="ExpandCollapse(remarksToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(remarksToggle, event)" tabindex="0"><img id="remarksToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Remarks</span></h1><div id="remarksSection" class="section" name="collapseableSection" style="">
+        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.6.0.0 (1.6.0.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">HttpUtils</span></pre></td></tr></table></span></div></div><h1 class="heading"><span onclick="ExpandCollapse(remarksToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(remarksToggle, event)" tabindex="0"><img id="remarksToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Remarks</span></h1><div id="remarksSection" class="section" name="collapseableSection" style="">
             An HttpUtils instance can issue HTTP GET or POST requests and can issue requests requiring 
             HTTP basic authentication if the instance is initialized with the username and password.
             </div><h1 class="heading"><span onclick="ExpandCollapse(familyToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(familyToggle, event)" tabindex="0"><img id="familyToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Inheritance Hierarchy</span></h1><div id="familySection" class="section" name="collapseableSection" style=""><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>Object</a><br />  <span class="selflink">TinEye.Services<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HttpUtils</span><br /></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><div class="seeAlsoStyle"><a href="c0380541-7207-4bc8-b0f5-d84212fd528c.htm">HttpUtils Members</a></div><div class="seeAlsoStyle"><a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a></div></div></div>
@@ -111,7 +93,7 @@
         </div>
         <A NAME="feedback"></A>
         <span id="fb" class="feedbackcss"></span>
-        <p />Copyright (C) 2011-2013 Idee Inc. All rights reserved worldwide.</div>
+        <p />Copyright (C) 2011-2016 Idée Inc. All rights reserved worldwide.</div>
     </div>
   </body>
 </html>

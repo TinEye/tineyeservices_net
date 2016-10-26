@@ -11,7 +11,7 @@
     <meta name="Description" content="Given a color palette (list of colors) and metadata, get a count for each color specifying the number of the hosted image collection images that contain that color, filtered by the metadata." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <link rel="stylesheet" type="text/css" href="../styles/Presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/SplitScreen.js"> </script>
     <script type="text/javascript" src="../scripts/Dropdown.js"> </script>
@@ -22,25 +22,7 @@
     <meta name="container" content="TinEye.Services" />
     <meta name="file" content="6791f926-9bae-c8ff-974f-b43552f7613e" />
     <meta name="guid" content="6791f926-9bae-c8ff-974f-b43552f7613e" />
-    <xml>
-      <MSHelp:Attr Name="AssetID" Value="M:TinEye.Services.MulticolorEngineRequest.CountCollectionColorsMetadata(Newtonsoft.Json.Linq.JObject,System.Drawing.Color[])" />
-      <MSHelp:TOCTitle Title="CountCollectionColorsMetadata Method " />
-      <MSHelp:RLTitle Title="MulticolorEngineRequest.CountCollectionColorsMetadata Method  (TinEye.Services)" />
-      <MSHelp:Keyword Index="A" Term="M:TinEye.Services.MulticolorEngineRequest.CountCollectionColorsMetadata(Newtonsoft.Json.Linq.JObject,System.Drawing.Color[])" />
-      <MSHelp:Keyword Index="A" Term="frlrfTinEyeServicesMulticolorEngineRequestClassCountCollectionColorsMetadataTopic" />
-      <MSHelp:Keyword Index="K" Term="CountCollectionColorsMetadata method" />
-      <MSHelp:Keyword Index="K" Term="MulticolorEngineRequest.CountCollectionColorsMetadata method" />
-      <MSHelp:Keyword Index="F" Term="TinEye.Services.MulticolorEngineRequest.CountCollectionColorsMetadata" />
-      <MSHelp:Attr Name="APIType" Value="Managed" />
-      <MSHelp:Attr Name="APILocation" Value="TinEyeServices.dll" />
-      <MSHelp:Attr Name="APIName" Value="TinEye.Services.MulticolorEngineRequest.CountCollectionColorsMetadata" />
-      <MSHelp:Attr Name="DevLang" Value="CSharp" />
-      <MSHelp:Attr Name="Locale" Value="en-us" />
-      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
-      <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Given a color palette (list of colors) and metadata, get a count for each color specifying the number of the hosted image collection images that contain that color, filtered by the metadata. Metadata can be set ..." />
-      <MSHelp:Attr Name="AssemblyVersion" Value="1.2.3.0" />
-    </xml>
+    
   </head>
   <body>
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -85,7 +67,9 @@
       </table>
       <table id="gradientTable">
         <tr>
-          <td class="nsrBottom" background="../icons/gradient.gif" />
+          <td class="nsrBottom" id="headerBottom">
+            <img id="headerBottomImage" style="display: none;" src="../icons/gradient.gif" />
+          </td>
         </tr>
       </table>
     </div>
@@ -99,7 +83,7 @@
             metadata. Metadata can be set to null to count colors from all images in the collection.
             </div>
         <p />
-        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.2.3.0 (1.2.3.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">public</span> <span class="nolink">JObject</span> <span class="identifier">CountCollectionColorsMetadata</span>(
+        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.6.0.0 (1.6.0.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">public</span> <span class="nolink">JObject</span> <span class="identifier">CountCollectionColorsMetadata</span>(
 	<span class="nolink">JObject</span> <span class="parameter">metadata</span>,
 	<a href="http://msdn2.microsoft.com/en-us/library/14w97wkc" target="_blank">Color</a>[] <span class="parameter">countColors</span>
 )</pre></td></tr></table></span></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="metadata"><dt><span class="parameter">metadata</span></dt><dd>Type: <span class="nolink">JObject</span><br />Metadata to filter the hosted collection images returned that
@@ -109,14 +93,14 @@
                              in any percentage</td></tr><tr><td>num_images_full_area</td><td>The number of input images that contain the palette color 
                              in a very large percentage</td></tr></table></div></td></tr><tr><td>error</td><td>Array of error messages if status is not <span class="code">ok</span></td></tr></table></div></div><h1 class="heading"><span onclick="ExpandCollapse(exceptionsToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(exceptionsToggle, event)" tabindex="0"><img id="exceptionsToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Exceptions</span></h1><div id="exceptionsSection" class="section" name="collapseableSection" style=""><div class="tableSection"><table width="100%" cellspacing="2" cellpadding="5" frame="lhs"><tr><th class="exceptionNameColumn">Exception</th><th class="exceptionConditionColumn">Condition</th></tr><tr><td><a href="6aa6d14a-239c-783b-10c5-ad358409d322.htm">TinEye.Services<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>TinEyeServiceException</a></td><td>If an exception occurs issuing the
             MulticolorEngine API <span class="code">count_collection_colors</span> request or parsing the response.
-            </td></tr></table></div></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><div class="seeAlsoStyle"><a href="2ba08501-52b7-d43e-0cb4-688041071e72.htm">MulticolorEngineRequest Class</a></div><div class="seeAlsoStyle"><a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a></div></div></div>
+            </td></tr></table></div></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><div class="seeAlsoStyle"><a href="2ba08501-52b7-d43e-0cb4-688041071e72.htm">MulticolorEngineRequest Class</a></div><div class="seeAlsoStyle"><a href="35a423df-d0a2-8484-b0a0-0899d747e3ba.htm">MulticolorEngineRequest Members</a></div><div class="seeAlsoStyle"><a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a></div></div></div>
       <div id="footer">
         <div class="footerLine">
           <img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" />
         </div>
         <A NAME="feedback"></A>
         <span id="fb" class="feedbackcss"></span>
-        <p />Copyright (C) 2011-2013 Idee Inc. All rights reserved worldwide.</div>
+        <p />Copyright (C) 2011-2016 Idée Inc. All rights reserved worldwide.</div>
     </div>
   </body>
 </html>

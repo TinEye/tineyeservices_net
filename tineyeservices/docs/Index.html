@@ -8,7 +8,7 @@
 <script type="text/javascript" src="TOC.js"></script>
 </head>
 
-<body onload="javascript: Initialize();" onresize="javascript: ResizeTree();">
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
 <form id="IndexForm" runat="server">
 
 <div id="TOCDiv" class="TOCDiv">
@@ -36,6 +36,9 @@ Keyword Index
         src="ExpandAll.bmp" height="16" width="16" alt="Expand all "/>
     <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
         src="CollapseAll.bmp" height="16" width="16" alt="Collapse all" />
+    <a href="#" title="Click to obtain a direct link to the displayed topic"
+        style="margin-left: 10px; vertical-align: top;"
+        onclick="javascript: ShowDirectLink();">Direct Link</a>
 </div>
 
 <div class="Tree" id="divSearchResults" style="display: none;"
@@ -199,22 +202,22 @@ Keyword Index
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/6b04d7b8-374d-ce85-81d4-8e38f4f2c255.htm" target="TopicContent">Image Constructor (Uri)</a>
 </div>
 <div class="TreeItem">
-<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ada29ee6-73c2-1f95-7646-9a12545bcf65.htm" target="TopicContent">Image Constructor (String, )</a>
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ada29ee6-73c2-1f95-7646-9a12545bcf65.htm" target="TopicContent">Image Constructor (String, JObject)</a>
 </div>
 <div class="TreeItem">
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b65cb50a-edd9-0769-192d-df56b556cb61.htm" target="TopicContent">Image Constructor (String, String)</a>
 </div>
 <div class="TreeItem">
-<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/cf284bb3-684e-aba1-401f-686c1d3cd6e1.htm" target="TopicContent">Image Constructor (Uri, )</a>
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/cf284bb3-684e-aba1-401f-686c1d3cd6e1.htm" target="TopicContent">Image Constructor (Uri, JObject)</a>
 </div>
 <div class="TreeItem">
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/5c532bbb-6378-5a76-bae5-d25912651419.htm" target="TopicContent">Image Constructor (Uri, String)</a>
 </div>
 <div class="TreeItem">
-<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/5bdf14c9-758b-08a0-a7b2-56a9f8802bf4.htm" target="TopicContent">Image Constructor (String, String, )</a>
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/5bdf14c9-758b-08a0-a7b2-56a9f8802bf4.htm" target="TopicContent">Image Constructor (String, String, JObject)</a>
 </div>
 <div class="TreeItem">
-<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/76f57224-84a4-8df9-0ba9-bca64cf9c721.htm" target="TopicContent">Image Constructor (Uri, String, )</a>
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/76f57224-84a4-8df9-0ba9-bca64cf9c721.htm" target="TopicContent">Image Constructor (Uri, String, JObject)</a>
 </div>
 </div>
 </div>
@@ -281,9 +284,6 @@ Keyword Index
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/daa870cb-6966-d03b-854c-b6917754f3e9.htm" target="TopicContent">CompareUrl Method </a>
 </div>
 <div class="TreeItem">
-<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/11fcd251-738d-558c-2e8e-a01d8bcb5553.htm" target="TopicContent">GetApiRequest Method </a>
-</div>
-<div class="TreeItem">
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/c92d8a10-ccf1-a2a7-60c1-17c56acaed3f.htm" target="TopicContent">SearchFilepath Method </a>
 </div>
 <div class="TreeItem">
@@ -326,9 +326,6 @@ Keyword Index
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/caa2d02e-348a-e4ae-d5c7-dd39500be4d7.htm" target="TopicContent">AddUrl Method </a>
 </div>
 <div class="TreeItem">
-<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d4b6a703-5f36-a6d3-a135-4f837003a9ed.htm" target="TopicContent">GetApiRequest Method </a>
-</div>
-<div class="TreeItem">
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/5e46283f-dc78-8794-58ac-8a9e82d43271.htm" target="TopicContent">GetMetadata Method </a>
 </div>
 <div class="TreeItem">
@@ -341,6 +338,28 @@ Keyword Index
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e83db1a6-5a93-f086-8bbf-64f10559ce68.htm" target="TopicContent">UpdateMetadata Method </a>
 </div>
 </div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/c4fd825d-f500-8460-ac0f-113584eb3dca.htm" target="TopicContent">MobileEngineRequest Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/75931dfe-49bb-27ac-bd49-d8fc8918d12c.htm" target="TopicContent">MobileEngineRequest Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/fa0cd459-bc96-b8c0-df01-7318223047e8.htm" target="TopicContent">MobileEngineRequest Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/e466c5f3-3c53-05bd-98a9-34418fb5cce5.htm" target="TopicContent">MobileEngineRequest Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/b00fd7a0-7607-caa4-9f59-948c63866dc9.htm" target="TopicContent">MobileEngineRequest Constructor (String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/54c251d6-8a55-6a90-acd8-43e35f47c0d7.htm" target="TopicContent">MobileEngineRequest Methods</a>
 </div>
 </div>
 </div>
@@ -408,9 +427,6 @@ Keyword Index
 </div>
 <div class="TreeItem">
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/4ab4b380-f33b-060c-d766-cb4de605262f.htm" target="TopicContent">ExtractImageColorsUrl Method </a>
-</div>
-<div class="TreeItem">
-<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/864031b0-80c9-b35e-b12f-f4e0d5e58be9.htm" target="TopicContent">GetApiRequest Method </a>
 </div>
 <div class="TreeItem">
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/d3eedfc7-b563-d3c1-3ba8-81a2113bbf4a.htm" target="TopicContent">SearchColor Method </a>
@@ -503,6 +519,28 @@ Keyword Index
 <img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/61d41f75-9133-df2c-063c-5c991b29406f.htm" target="TopicContent">PostApiRequest Method </a>
 </div>
 </div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/2b674762-7586-4b5d-e6fe-d56d730e48b8.htm" target="TopicContent">WineEngineRequest Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/71c24465-20a3-5da9-32f6-11fdf330afc1.htm" target="TopicContent">WineEngineRequest Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.gif"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/701224fa-06b7-5b97-cae1-0acd4c07d5f1.htm" target="TopicContent">WineEngineRequest Constructor </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/19d61339-1315-f1e2-44e8-88eee6f88a90.htm" target="TopicContent">WineEngineRequest Constructor (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/ccfe4f52-43e2-b154-3a6b-d13726076e56.htm" target="TopicContent">WineEngineRequest Constructor (String, String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/521503cb-3c51-a7b6-6eda-a7aaf65043f5.htm" target="TopicContent">WineEngineRequest Methods</a>
 </div>
 </div>
 </div>

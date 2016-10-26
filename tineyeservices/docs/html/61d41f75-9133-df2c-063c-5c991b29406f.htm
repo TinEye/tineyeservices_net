@@ -11,7 +11,7 @@
     <meta name="Description" content="Issue an HTTP POST request with the given postRequest to the specified API method." />
     <meta name="Microsoft.Help.ContentType" content="Reference" />
     <link rel="stylesheet" type="text/css" href="../styles/Presentation.css" />
-    <link rel="stylesheet" type="text/css" href="ms-help://Hx/HxRuntime/HxLink.css" />
+    
     <script type="text/javascript" src="../scripts/EventUtilities.js"> </script>
     <script type="text/javascript" src="../scripts/SplitScreen.js"> </script>
     <script type="text/javascript" src="../scripts/Dropdown.js"> </script>
@@ -22,25 +22,7 @@
     <meta name="container" content="TinEye.Services" />
     <meta name="file" content="61d41f75-9133-df2c-063c-5c991b29406f" />
     <meta name="guid" content="61d41f75-9133-df2c-063c-5c991b29406f" />
-    <xml>
-      <MSHelp:Attr Name="AssetID" Value="M:TinEye.Services.TinEyeServiceRequest.PostApiRequest(System.String,System.Byte[],System.String)" />
-      <MSHelp:TOCTitle Title="PostApiRequest Method " />
-      <MSHelp:RLTitle Title="TinEyeServiceRequest.PostApiRequest Method  (TinEye.Services)" />
-      <MSHelp:Keyword Index="A" Term="M:TinEye.Services.TinEyeServiceRequest.PostApiRequest(System.String,System.Byte[],System.String)" />
-      <MSHelp:Keyword Index="A" Term="frlrfTinEyeServicesTinEyeServiceRequestClassPostApiRequestTopic" />
-      <MSHelp:Keyword Index="K" Term="PostApiRequest method" />
-      <MSHelp:Keyword Index="K" Term="TinEyeServiceRequest.PostApiRequest method" />
-      <MSHelp:Keyword Index="F" Term="TinEye.Services.TinEyeServiceRequest.PostApiRequest" />
-      <MSHelp:Attr Name="APIType" Value="Managed" />
-      <MSHelp:Attr Name="APILocation" Value="TinEyeServices.dll" />
-      <MSHelp:Attr Name="APIName" Value="TinEye.Services.TinEyeServiceRequest.PostApiRequest" />
-      <MSHelp:Attr Name="DevLang" Value="CSharp" />
-      <MSHelp:Attr Name="Locale" Value="en-us" />
-      <MSHelp:Attr Name="TopicType" Value="kbSyntax" />
-      <MSHelp:Attr Name="TopicType" Value="apiref" />
-      <MSHelp:Attr Name="Abstract" Value="Issue an HTTP POST request with the given postRequest to the specified API method." />
-      <MSHelp:Attr Name="AssemblyVersion" Value="1.2.3.0" />
-    </xml>
+    
   </head>
   <body>
     <input type="hidden" id="userDataCache" class="userDataStyle" />
@@ -85,7 +67,9 @@
       </table>
       <table id="gradientTable">
         <tr>
-          <td class="nsrBottom" background="../icons/gradient.gif" />
+          <td class="nsrBottom" id="headerBottom">
+            <img id="headerBottomImage" style="display: none;" src="../icons/gradient.gif" />
+          </td>
         </tr>
       </table>
     </div>
@@ -98,21 +82,21 @@
             API <span class="code">method</span>.
             </div>
         <p />
-        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.2.3.0 (1.2.3.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">protected</span> <span class="nolink">JObject</span> <span class="identifier">PostApiRequest</span>(
+        <b>Namespace:</b> <a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services</a><br /><b>Assembly:</b> <span sdata="assembly">TinEyeServices</span> (in TinEyeServices.dll) Version: 1.6.0.0 (1.6.0.0)<h1 class="heading"><span onclick="ExpandCollapse(syntaxToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(syntaxToggle, event)" tabindex="0"><img id="syntaxToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Syntax</span></h1><div id="syntaxSection" class="section" name="collapseableSection" style=""><div id="syntaxCodeBlocks" class="code"><span codeLanguage="CSharp"><table><tr><th>C#</th></tr><tr><td><pre xml:space="preserve"><span class="keyword">protected</span> <span class="nolink">JObject</span> <span class="identifier">PostApiRequest</span>(
 	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">method</span>,
 	<a href="http://msdn2.microsoft.com/en-us/library/yyb1w04y" target="_blank">byte</a>[] <span class="parameter">postRequest</span>,
 	<a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">string</a> <span class="parameter">boundary</span>
 )</pre></td></tr></table></span></div><div id="parameters"><h4 class="subHeading">Parameters</h4><dl paramName="method"><dt><span class="parameter">method</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>String</a><br />The API method to issue the POST request to.</dd></dl><dl paramName="postRequest"><dt><span class="parameter">postRequest</span></dt><dd>Type: <span class="languageSpecificText"><span class="cpp">array&lt;</span></span><a href="http://msdn2.microsoft.com/en-us/library/yyb1w04y" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>Byte</a><span class="languageSpecificText"><span class="cpp">&gt;</span><span class="cs">[]</span><span class="vb">()</span><span class="nu">[]</span><span class="fs">[]</span></span><br />The POST request body to send to the API.</dd></dl><dl paramName="boundary"><dt><span class="parameter">boundary</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>String</a><br />Field string separating different fields in the POST message.
             This is required to send the correct content-type header in the request.</dd></dl></div><h4 class="subHeading">Return Value</h4>The JSON response returned by the API.</div><h1 class="heading"><span onclick="ExpandCollapse(exceptionsToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(exceptionsToggle, event)" tabindex="0"><img id="exceptionsToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />Exceptions</span></h1><div id="exceptionsSection" class="section" name="collapseableSection" style=""><div class="tableSection"><table width="100%" cellspacing="2" cellpadding="5" frame="lhs"><tr><th class="exceptionNameColumn">Exception</th><th class="exceptionConditionColumn">Condition</th></tr><tr><td><a href="http://msdn2.microsoft.com/en-us/library/27426hcy" target="_blank">System<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>ArgumentNullException</a></td><td>If method is Nothing.</td></tr><tr><td><a href="631cbcba-9907-2fd1-7f49-8d494bce9674.htm">TinEye.Services<span class="languageSpecificText"><span class="cs">.</span><span class="vb">.</span><span class="cpp">::</span><span class="nu">.</span><span class="fs">.</span></span>HttpUtilsException</a></td><td>If an error occurs making or issuing the HTTP POST
             request to the API.</td></tr><tr><td><span class="nolink">JsonReaderException</span></td><td>If an error occurs parsing the 
-            API response to JSON.</td></tr></table></div></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><div class="seeAlsoStyle"><a href="e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">TinEyeServiceRequest Class</a></div><div class="seeAlsoStyle"><a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a></div></div></div>
+            API response to JSON.</td></tr></table></div></div><h1 class="heading"><span onclick="ExpandCollapse(seeAlsoToggle)" style="cursor:default;" onkeypress="ExpandCollapse_CheckKey(seeAlsoToggle, event)" tabindex="0"><img id="seeAlsoToggle" class="toggle" name="toggleSwitch" src="../icons/collapse_all.gif" />See Also</span></h1><div id="seeAlsoSection" class="section" name="collapseableSection" style=""><div class="seeAlsoStyle"><a href="e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">TinEyeServiceRequest Class</a></div><div class="seeAlsoStyle"><a href="fcc2f73d-45c7-316a-fc16-009a71a58b2a.htm">TinEyeServiceRequest Members</a></div><div class="seeAlsoStyle"><a href="c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">TinEye.Services Namespace</a></div></div></div>
       <div id="footer">
         <div class="footerLine">
           <img width="100%" height="3px" src="../icons/footer.gif" alt="Footer image" title="Footer image" />
         </div>
         <A NAME="feedback"></A>
         <span id="fb" class="feedbackcss"></span>
-        <p />Copyright (C) 2011-2013 Idee Inc. All rights reserved worldwide.</div>
+        <p />Copyright (C) 2011-2016 Idée Inc. All rights reserved worldwide.</div>
     </div>
   </body>
 </html>
