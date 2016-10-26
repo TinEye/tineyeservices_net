@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="daf5efd2-6943-4cda-8db0-9ff9b83b3755" Title="TinEye.Services Namespace" Url="html/c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">
-    <HelpTOCNode Id="63423c32-0a2f-4e09-a93a-52577fc2f152" Title="HttpMessageBuilder Class" Url="html/90cff91d-e6ee-8a36-b4b3-292717aa7977.htm">
+  <HelpTOCNode Id="ac6f4f83-4004-485c-929b-7ee58dd171be" Title="TinEye.Services Namespace" Url="html/c4fabef5-4093-e578-23f6-a2c9ec9fc3e3.htm">
+    <HelpTOCNode Id="b18b76a4-e7dc-4f52-a60a-45a69d855eb2" Title="HttpMessageBuilder Class" Url="html/90cff91d-e6ee-8a36-b4b3-292717aa7977.htm">
       <HelpTOCNode Title="HttpMessageBuilder Members" Url="html/6b9dcba5-eb57-748c-13ba-118158a92999.htm" />
       <HelpTOCNode Title="HttpMessageBuilder Constructor " Url="html/6dc287b5-fbbb-efb5-72b8-cca2b720a2e5.htm" />
-      <HelpTOCNode Id="f819edbc-4678-4cea-95fa-1d7112ceb0ab" Title="HttpMessageBuilder Methods" Url="html/f43a7d51-2f75-bf7f-9937-c15636549343.htm">
-        <HelpTOCNode Id="aa9cf7a9-bf60-416d-9dc1-e68970dbab37" Title="Add Method " Url="html/4a7bb0fb-4e4a-0937-c9b0-7c40e4c6c22a.htm">
+      <HelpTOCNode Id="7b983c24-fb13-4fcc-badf-80e28d928c6f" Title="HttpMessageBuilder Methods" Url="html/f43a7d51-2f75-bf7f-9937-c15636549343.htm">
+        <HelpTOCNode Id="28ec9f36-c3ec-485a-b734-acec79959850" Title="Add Method " Url="html/4a7bb0fb-4e4a-0937-c9b0-7c40e4c6c22a.htm">
           <HelpTOCNode Title="Add Method (String, Boolean)" Url="html/d0db9236-90b4-316c-a52e-7f22b5f9a2f4.htm" />
           <HelpTOCNode Title="Add Method (String, Int32)" Url="html/e46c7482-90b5-8fc7-1e87-71c13d9f54c0.htm" />
           <HelpTOCNode Title="Add Method (String, Single)" Url="html/3b550db4-28b3-a668-754f-fe7e406bff9c.htm" />
@@ -17,42 +17,42 @@
         <HelpTOCNode Title="GetNonImagePostFields Method " Url="html/d0a8bc94-cbb5-79c9-77b2-a87fb1a8eb54.htm" />
         <HelpTOCNode Title="ToArray Method " Url="html/03b0dd51-8742-6e44-0bd4-b87b821f2f8e.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="74b87ee8-5bcd-4589-9b71-15c4a24c88b9" Title="HttpMessageBuilder Properties" Url="html/88a14445-68d7-382c-6b8f-20433171611a.htm">
+      <HelpTOCNode Id="c8febed8-a5b6-4c11-8852-3b1a93c9de95" Title="HttpMessageBuilder Properties" Url="html/88a14445-68d7-382c-6b8f-20433171611a.htm">
         <HelpTOCNode Title="Boundary Property " Url="html/0df39b41-8ceb-ea1d-15e7-a300ecc5660b.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="403de6ac-8134-4431-a022-ee116dc66418" Title="HttpMessageBuilderException Class" Url="html/9c4536b6-b88b-9164-8a30-a128e478a56d.htm">
+    <HelpTOCNode Id="e4aaa3c5-26db-4940-9fa8-b2cc5a77cbd8" Title="HttpMessageBuilderException Class" Url="html/9c4536b6-b88b-9164-8a30-a128e478a56d.htm">
       <HelpTOCNode Title="HttpMessageBuilderException Members" Url="html/732635ba-611a-d8f0-1782-ee33547e49ba.htm" />
-      <HelpTOCNode Id="10974439-b0a8-4fca-a0b0-1e473be28cd5" Title="HttpMessageBuilderException Constructor " Url="html/1d286a7c-dcfc-e7db-2e6f-ac55c28790a0.htm">
+      <HelpTOCNode Id="b53219be-be89-4e09-ac9f-26a5a8fd4560" Title="HttpMessageBuilderException Constructor " Url="html/1d286a7c-dcfc-e7db-2e6f-ac55c28790a0.htm">
         <HelpTOCNode Title="HttpMessageBuilderException Constructor " Url="html/224c4a64-f639-6c92-f983-22ec17d9da7a.htm" />
         <HelpTOCNode Title="HttpMessageBuilderException Constructor (String)" Url="html/3a3b9272-5fdf-d46c-717e-6c1358495b69.htm" />
         <HelpTOCNode Title="HttpMessageBuilderException Constructor (SerializationInfo, StreamingContext)" Url="html/111f1b57-bb88-ff74-8881-7994afc0e140.htm" />
         <HelpTOCNode Title="HttpMessageBuilderException Constructor (String, Exception)" Url="html/70b166c9-23ec-bbf0-3869-70ca727742f1.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="a4249e99-8f98-4b80-88c9-1e81c9dd136b" Title="HttpUtils Class" Url="html/b9253785-37b2-fc0b-bce6-e16e76f08670.htm">
+    <HelpTOCNode Id="1fb50890-4d85-4042-a809-edbbe8f7ae62" Title="HttpUtils Class" Url="html/b9253785-37b2-fc0b-bce6-e16e76f08670.htm">
       <HelpTOCNode Title="HttpUtils Members" Url="html/c0380541-7207-4bc8-b0f5-d84212fd528c.htm" />
-      <HelpTOCNode Id="e5a01df0-df13-4005-b8bd-df92f2e260b9" Title="HttpUtils Constructor " Url="html/3485d15d-15a5-1ade-0eb0-37ffc04e4e91.htm">
+      <HelpTOCNode Id="46599e9d-c3f6-4685-89cd-a7b5fa753261" Title="HttpUtils Constructor " Url="html/3485d15d-15a5-1ade-0eb0-37ffc04e4e91.htm">
         <HelpTOCNode Title="HttpUtils Constructor " Url="html/dc145196-ea0a-e8b4-0bee-d2648a4e87da.htm" />
         <HelpTOCNode Title="HttpUtils Constructor (String, String)" Url="html/1d336e79-a3f7-4bbf-cfc7-3c577326544b.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="730fb1d2-6566-4be7-97a9-652018ae9988" Title="HttpUtils Methods" Url="html/27b639b1-e8ef-58a3-ce56-88c129ff8d68.htm">
+      <HelpTOCNode Id="997315be-0dc3-4dcf-bced-8101721d01b3" Title="HttpUtils Methods" Url="html/27b639b1-e8ef-58a3-ce56-88c129ff8d68.htm">
         <HelpTOCNode Title="Get Method " Url="html/bf1ec7ae-d63d-a254-29c2-a1f34463011c.htm" />
         <HelpTOCNode Title="Post Method " Url="html/a012027a-688c-b1b6-8b13-9e573afda407.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="42a704c6-8bf4-44a1-8a58-2fe4761c1871" Title="HttpUtilsException Class" Url="html/631cbcba-9907-2fd1-7f49-8d494bce9674.htm">
+    <HelpTOCNode Id="cafe68db-7990-40e8-a92f-267ece969fff" Title="HttpUtilsException Class" Url="html/631cbcba-9907-2fd1-7f49-8d494bce9674.htm">
       <HelpTOCNode Title="HttpUtilsException Members" Url="html/0774d998-a356-5807-00d4-0a199b96a882.htm" />
-      <HelpTOCNode Id="a0cf0e7a-5c87-41e9-94b2-e81704923a7b" Title="HttpUtilsException Constructor " Url="html/15f0eed8-be69-092e-54c3-ed035a9e0643.htm">
+      <HelpTOCNode Id="a71bfe88-f045-4159-871f-e3fb93c3f5d5" Title="HttpUtilsException Constructor " Url="html/15f0eed8-be69-092e-54c3-ed035a9e0643.htm">
         <HelpTOCNode Title="HttpUtilsException Constructor " Url="html/e56f2f63-423f-fb67-21da-9c79c247c286.htm" />
         <HelpTOCNode Title="HttpUtilsException Constructor (String)" Url="html/0c89c165-ee47-747a-b9bf-7d40c2293aa5.htm" />
         <HelpTOCNode Title="HttpUtilsException Constructor (SerializationInfo, StreamingContext)" Url="html/1c9abdbb-27f5-3bd6-b443-34bb899c6cc8.htm" />
         <HelpTOCNode Title="HttpUtilsException Constructor (String, Exception)" Url="html/d6c14b9d-94da-244d-5796-f86c47957498.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="2b3a5bbe-66d1-4c33-864c-2c848f68f4ec" Title="Image Class" Url="html/b8fbe02e-af3d-47c3-592b-c10f902e2b24.htm">
+    <HelpTOCNode Id="a09934be-333a-475a-82b3-8eb44a8538f4" Title="Image Class" Url="html/b8fbe02e-af3d-47c3-592b-c10f902e2b24.htm">
       <HelpTOCNode Title="Image Members" Url="html/1a6ed401-434a-cb21-3f95-e9cfe586ab5d.htm" />
-      <HelpTOCNode Id="b5146d5e-45cd-494f-afea-5c066089094e" Title="Image Constructor " Url="html/9e8f0ac8-ce35-6484-1a26-0c41dc8dea26.htm">
+      <HelpTOCNode Id="db1a9eb1-ba6a-43b0-8680-c230ed15e936" Title="Image Constructor " Url="html/9e8f0ac8-ce35-6484-1a26-0c41dc8dea26.htm">
         <HelpTOCNode Title="Image Constructor (String)" Url="html/ae55d201-6210-19bc-6495-90a5d7064c1c.htm" />
         <HelpTOCNode Title="Image Constructor (Uri)" Url="html/6b04d7b8-374d-ce85-81d4-8e38f4f2c255.htm" />
         <HelpTOCNode Title="Image Constructor (String, JObject)" Url="html/ada29ee6-73c2-1f95-7646-9a12545bcf65.htm" />
@@ -62,10 +62,10 @@
         <HelpTOCNode Title="Image Constructor (String, String, JObject)" Url="html/5bdf14c9-758b-08a0-a7b2-56a9f8802bf4.htm" />
         <HelpTOCNode Title="Image Constructor (Uri, String, JObject)" Url="html/76f57224-84a4-8df9-0ba9-bca64cf9c721.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="ee083677-1f49-493a-ab78-569aa60ee9c6" Title="Image Methods" Url="html/9111fd57-8ecc-4723-417e-83eca83097dc.htm">
+      <HelpTOCNode Id="59da2a5d-266c-488b-9c4f-9178a34754a5" Title="Image Methods" Url="html/9111fd57-8ecc-4723-417e-83eca83097dc.htm">
         <HelpTOCNode Title="ReadData Method " Url="html/f30c31ca-e9e2-3cfa-4d79-843dde00d47e.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="067b0a1b-d49a-4017-8bbc-d4dc51143bf7" Title="Image Properties" Url="html/2f2ec083-83d0-b0b2-2155-4c2f8755ff83.htm">
+      <HelpTOCNode Id="c2004db3-51d1-49fa-ba67-f73d77ef64e8" Title="Image Properties" Url="html/2f2ec083-83d0-b0b2-2155-4c2f8755ff83.htm">
         <HelpTOCNode Title="CollectionFilepath Property " Url="html/c966ac90-af37-3932-a12a-f25595199f81.htm" />
         <HelpTOCNode Title="Data Property " Url="html/b061c423-ee8b-53fe-1483-02a9a06e4008.htm" />
         <HelpTOCNode Title="Filepath Property " Url="html/3e734612-c4ab-61c4-427e-eaa0436e8187.htm" />
@@ -73,13 +73,13 @@
         <HelpTOCNode Title="Metadata Property " Url="html/72cb1f83-f1c9-3217-d4d4-6c72ff1d5f50.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="5ea50aca-95ad-4542-8b75-108219fe56fc" Title="MatchEngineRequest Class" Url="html/c9b0ea43-21bc-d1c9-a4c2-0cd9633e6af8.htm">
+    <HelpTOCNode Id="5e3e078f-e01c-4584-995c-27c7491eeee8" Title="MatchEngineRequest Class" Url="html/c9b0ea43-21bc-d1c9-a4c2-0cd9633e6af8.htm">
       <HelpTOCNode Title="MatchEngineRequest Members" Url="html/f7ad9472-b063-bdbe-35c8-349534f8c7ff.htm" />
-      <HelpTOCNode Id="a52dc174-7aca-4fb8-87d8-e9bb195193b5" Title="MatchEngineRequest Constructor " Url="html/b56d8f52-8536-05b1-c7df-dbf262e09d16.htm">
+      <HelpTOCNode Id="53207de5-0790-462f-9d35-c75da5bb667f" Title="MatchEngineRequest Constructor " Url="html/b56d8f52-8536-05b1-c7df-dbf262e09d16.htm">
         <HelpTOCNode Title="MatchEngineRequest Constructor (String)" Url="html/544a07b6-cbd3-d3e3-106b-a75ebdf77691.htm" />
         <HelpTOCNode Title="MatchEngineRequest Constructor (String, String, String)" Url="html/e42db97e-8592-d337-4b73-3fcf78017256.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="99dd94f6-906f-46c2-9862-31c210eae7fa" Title="MatchEngineRequest Methods" Url="html/c72d6273-052c-1f90-9db4-5885a93f9dcd.htm">
+      <HelpTOCNode Id="96e44f12-612c-4b12-a9e6-bbc75cb26ee1" Title="MatchEngineRequest Methods" Url="html/c72d6273-052c-1f90-9db4-5885a93f9dcd.htm">
         <HelpTOCNode Title="AddImage Method " Url="html/41d17520-cfda-ef2a-efbf-59090d5b0e50.htm" />
         <HelpTOCNode Title="AddUrl Method " Url="html/ea3a62c9-124f-f896-05c9-f729ee3443b3.htm" />
         <HelpTOCNode Title="CompareImage Method " Url="html/a050a2cb-1643-e306-aa04-558b275c46dd.htm" />
@@ -89,13 +89,13 @@
         <HelpTOCNode Title="SearchUrl Method " Url="html/07911a05-f356-d66b-8517-587ada3c8618.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="1fc4a06b-b01b-4a36-aa7f-9e6735185597" Title="MetadataRequest Class" Url="html/a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm">
+    <HelpTOCNode Id="f56d4d47-7be8-4a5a-9b17-efc9da3808ad" Title="MetadataRequest Class" Url="html/a74e70a5-0f73-8362-0da2-24fcc1591bd4.htm">
       <HelpTOCNode Title="MetadataRequest Members" Url="html/6b9113ba-7291-e56b-f36a-f0e7b98ff52b.htm" />
-      <HelpTOCNode Id="58a6c62d-ea2d-4e17-80b4-cc84debe559a" Title="MetadataRequest Constructor " Url="html/3c28faff-fab9-d588-b65c-2b3c908c2951.htm">
+      <HelpTOCNode Id="642c355b-558e-4c85-ab6e-2548f3e69f72" Title="MetadataRequest Constructor " Url="html/3c28faff-fab9-d588-b65c-2b3c908c2951.htm">
         <HelpTOCNode Title="MetadataRequest Constructor (String)" Url="html/9811fd6c-b246-479e-6c43-eb2eb5dbaad3.htm" />
         <HelpTOCNode Title="MetadataRequest Constructor (String, String, String)" Url="html/1403ae4e-e6f6-3165-3bdb-dd66188f286d.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="cfe54794-a839-412b-a3a2-82cb00630263" Title="MetadataRequest Methods" Url="html/c6ec45b7-99e9-b4da-60e5-60d90b78600b.htm">
+      <HelpTOCNode Id="8012e22f-bf6c-4b15-a7ea-53dd88f5708d" Title="MetadataRequest Methods" Url="html/c6ec45b7-99e9-b4da-60e5-60d90b78600b.htm">
         <HelpTOCNode Title="AddExtraSearchOptions Method " Url="html/b235f03b-6cea-8f4b-f156-3dc69737fd35.htm" />
         <HelpTOCNode Title="AddImage Method " Url="html/ff75f539-225b-9f4f-7a92-96ca192ff92e.htm" />
         <HelpTOCNode Title="AddUrl Method " Url="html/caa2d02e-348a-e4ae-d5c7-dd39500be4d7.htm" />
@@ -105,21 +105,21 @@
         <HelpTOCNode Title="UpdateMetadata Method " Url="html/e83db1a6-5a93-f086-8bbf-64f10559ce68.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="52be5af4-2dff-4dfa-a891-f2214916ee60" Title="MobileEngineRequest Class" Url="html/c4fd825d-f500-8460-ac0f-113584eb3dca.htm">
+    <HelpTOCNode Id="eb8d961d-5bf3-406e-ac17-2f009c510202" Title="MobileEngineRequest Class" Url="html/c4fd825d-f500-8460-ac0f-113584eb3dca.htm">
       <HelpTOCNode Title="MobileEngineRequest Members" Url="html/75931dfe-49bb-27ac-bd49-d8fc8918d12c.htm" />
-      <HelpTOCNode Id="addc1218-13b7-4012-8741-ec224e01c47a" Title="MobileEngineRequest Constructor " Url="html/fa0cd459-bc96-b8c0-df01-7318223047e8.htm">
+      <HelpTOCNode Id="bfd9a478-fc1f-4aa7-a170-af910d208354" Title="MobileEngineRequest Constructor " Url="html/fa0cd459-bc96-b8c0-df01-7318223047e8.htm">
         <HelpTOCNode Title="MobileEngineRequest Constructor (String)" Url="html/e466c5f3-3c53-05bd-98a9-34418fb5cce5.htm" />
         <HelpTOCNode Title="MobileEngineRequest Constructor (String, String, String)" Url="html/b00fd7a0-7607-caa4-9f59-948c63866dc9.htm" />
       </HelpTOCNode>
       <HelpTOCNode Title="MobileEngineRequest Methods" Url="html/54c251d6-8a55-6a90-acd8-43e35f47c0d7.htm" />
     </HelpTOCNode>
-    <HelpTOCNode Id="1e934578-55a1-459d-821c-5bed91995046" Title="MulticolorEngineRequest Class" Url="html/2ba08501-52b7-d43e-0cb4-688041071e72.htm">
+    <HelpTOCNode Id="aca72444-27a9-4d64-85d2-9b9fecc4e842" Title="MulticolorEngineRequest Class" Url="html/2ba08501-52b7-d43e-0cb4-688041071e72.htm">
       <HelpTOCNode Title="MulticolorEngineRequest Members" Url="html/35a423df-d0a2-8484-b0a0-0899d747e3ba.htm" />
-      <HelpTOCNode Id="df6a77b7-7126-4ed2-82c8-b7cec4d7d807" Title="MulticolorEngineRequest Constructor " Url="html/993a8796-77ca-2768-5e31-98d932dbc177.htm">
+      <HelpTOCNode Id="d41b44d0-845e-4168-be65-7e81c82c72e1" Title="MulticolorEngineRequest Constructor " Url="html/993a8796-77ca-2768-5e31-98d932dbc177.htm">
         <HelpTOCNode Title="MulticolorEngineRequest Constructor (String)" Url="html/61021422-7069-e3ba-4042-e88035497561.htm" />
         <HelpTOCNode Title="MulticolorEngineRequest Constructor (String, String, String)" Url="html/2f486a9d-868f-9238-cf74-4565197b8106.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="1829b147-f2e3-4668-be7c-a3aaa00b482a" Title="MulticolorEngineRequest Methods" Url="html/00197984-2012-417b-d585-bb6b79810b6f.htm">
+      <HelpTOCNode Id="6bae9c84-4847-41e3-b0d6-0f3b653dd10c" Title="MulticolorEngineRequest Methods" Url="html/00197984-2012-417b-d585-bb6b79810b6f.htm">
         <HelpTOCNode Title="CountCollectionColors Method " Url="html/19ce0eb2-ed6f-a542-9b77-9bc4a689d12a.htm" />
         <HelpTOCNode Title="CountCollectionColorsColors Method " Url="html/c9d38170-c1e2-c1c5-004d-7d4e51af09d7.htm" />
         <HelpTOCNode Title="CountCollectionColorsFilepath Method " Url="html/cd0f127a-32b3-3a0a-16c4-9a165d75831b.htm" />
@@ -142,25 +142,25 @@
         <HelpTOCNode Title="SearchUrl Method " Url="html/b74be60b-cf73-6d03-87a7-350000404fad.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="ba2421c9-b99a-4efe-bfc4-20173dcb0858" Title="TinEyeServiceException Class" Url="html/6aa6d14a-239c-783b-10c5-ad358409d322.htm">
+    <HelpTOCNode Id="f6bb64ed-eec6-48f6-a054-4f2d08a647d2" Title="TinEyeServiceException Class" Url="html/6aa6d14a-239c-783b-10c5-ad358409d322.htm">
       <HelpTOCNode Title="TinEyeServiceException Members" Url="html/6aafac8d-671a-a713-a6f2-e108061c6173.htm" />
-      <HelpTOCNode Id="730fbd97-643a-47ab-a31a-074efbec0c3f" Title="TinEyeServiceException Constructor " Url="html/b87cebcb-1189-7e50-854b-a778c80a3769.htm">
+      <HelpTOCNode Id="a58405e2-6181-4b52-b5d4-8f0d35378d78" Title="TinEyeServiceException Constructor " Url="html/b87cebcb-1189-7e50-854b-a778c80a3769.htm">
         <HelpTOCNode Title="TinEyeServiceException Constructor " Url="html/6f321765-5886-cee6-8f84-ab5671ff2226.htm" />
         <HelpTOCNode Title="TinEyeServiceException Constructor (String)" Url="html/2be76be1-712c-f41f-29fb-4f9daca1544a.htm" />
         <HelpTOCNode Title="TinEyeServiceException Constructor (SerializationInfo, StreamingContext)" Url="html/1a9d1533-efa0-bd9e-e737-cc6991000794.htm" />
         <HelpTOCNode Title="TinEyeServiceException Constructor (String, Exception)" Url="html/963064e8-0e4a-ec9c-993a-02f50ec3cc9c.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="9a48be83-0557-48d0-a766-bae3246ede39" Title="TinEyeServiceRequest Class" Url="html/e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">
+    <HelpTOCNode Id="21340fe7-becf-4ad9-bfd1-185dadf4d14f" Title="TinEyeServiceRequest Class" Url="html/e1188c69-e8bc-f357-feb3-b11c4ef8d722.htm">
       <HelpTOCNode Title="TinEyeServiceRequest Members" Url="html/fcc2f73d-45c7-316a-fc16-009a71a58b2a.htm" />
-      <HelpTOCNode Id="9ab85b1c-6a5a-424e-b9a2-df28629d6a52" Title="TinEyeServiceRequest Constructor " Url="html/61f12955-0023-2ef0-fd0f-c41041a32e4d.htm">
+      <HelpTOCNode Id="d9d7281c-eeae-47ef-b143-011c6041e437" Title="TinEyeServiceRequest Constructor " Url="html/61f12955-0023-2ef0-fd0f-c41041a32e4d.htm">
         <HelpTOCNode Title="TinEyeServiceRequest Constructor (String)" Url="html/6e4ef534-bfd6-3dcf-810d-f4b41b123ff0.htm" />
         <HelpTOCNode Title="TinEyeServiceRequest Constructor (String, String, String)" Url="html/147e2a5a-0b77-4cf2-9939-fed05b807a35.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="04b8f50f-1ba6-4332-82a2-96b424857ce2" Title="TinEyeServiceRequest Methods" Url="html/37120fa5-de43-15a3-455b-d77d30e5e57c.htm">
+      <HelpTOCNode Id="ad004db1-295e-440d-804c-3416234d5aef" Title="TinEyeServiceRequest Methods" Url="html/37120fa5-de43-15a3-455b-d77d30e5e57c.htm">
         <HelpTOCNode Title="Count Method " Url="html/69dad743-0d2c-3ae7-0312-10d4f3e45aa9.htm" />
         <HelpTOCNode Title="Delete Method " Url="html/cafa5bb9-7a79-f12c-1b1f-e35d89e90075.htm" />
-        <HelpTOCNode Id="7835770e-1f81-442a-bd3a-50681cf7a49b" Title="GetApiRequest Method " Url="html/b0107236-d5b3-d689-e3c0-a3cf32cbc2ff.htm">
+        <HelpTOCNode Id="7f963d86-d258-4099-9be2-0f2e6614e660" Title="GetApiRequest Method " Url="html/b0107236-d5b3-d689-e3c0-a3cf32cbc2ff.htm">
           <HelpTOCNode Title="GetApiRequest Method (String)" Url="html/2a198715-52a1-6026-bc56-a60c22f6d081.htm" />
           <HelpTOCNode Title="GetApiRequest Method (String, String)" Url="html/a91bf14c-9c80-1e6b-ddce-5760076d969e.htm" />
         </HelpTOCNode>
@@ -169,9 +169,9 @@
         <HelpTOCNode Title="PostApiRequest Method " Url="html/61d41f75-9133-df2c-063c-5c991b29406f.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="68d3a1f6-bedc-4233-a0f2-37eb05b86fc7" Title="WineEngineRequest Class" Url="html/2b674762-7586-4b5d-e6fe-d56d730e48b8.htm">
+    <HelpTOCNode Id="b2e2751e-abb7-4942-b730-f4a2c9cc0b13" Title="WineEngineRequest Class" Url="html/2b674762-7586-4b5d-e6fe-d56d730e48b8.htm">
       <HelpTOCNode Title="WineEngineRequest Members" Url="html/71c24465-20a3-5da9-32f6-11fdf330afc1.htm" />
-      <HelpTOCNode Id="df9c25d3-5abe-48de-b335-5d70c4f987ac" Title="WineEngineRequest Constructor " Url="html/701224fa-06b7-5b97-cae1-0acd4c07d5f1.htm">
+      <HelpTOCNode Id="ab426dd5-604c-4b0b-885c-7ae3a7d0b41c" Title="WineEngineRequest Constructor " Url="html/701224fa-06b7-5b97-cae1-0acd4c07d5f1.htm">
         <HelpTOCNode Title="WineEngineRequest Constructor (String)" Url="html/19d61339-1315-f1e2-44e8-88eee6f88a90.htm" />
         <HelpTOCNode Title="WineEngineRequest Constructor (String, String, String)" Url="html/ccfe4f52-43e2-b154-3a6b-d13726076e56.htm" />
       </HelpTOCNode>
