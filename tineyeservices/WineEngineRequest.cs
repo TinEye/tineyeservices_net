@@ -24,6 +24,7 @@ namespace TinEye.Services
         /// </summary>
         /// <param name="apiURL">The WineEngine API URL.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public WineEngineRequest(String apiURL) :
             base(apiURL, null, null) { }
 
@@ -37,6 +38,7 @@ namespace TinEye.Services
         /// <param name="password">The password for HTTP basic authentication when connecting to
         /// the WineEngine API.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public WineEngineRequest(String apiURL, String username, String password) :
             base(apiURL, username, password) { }
     }

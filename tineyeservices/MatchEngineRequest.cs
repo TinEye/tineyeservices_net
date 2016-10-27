@@ -11,7 +11,7 @@ namespace TinEye.Services
     /// <para>Provides methods to call the MatchEngine API methods.</para>
     /// <note>For a list of available MatchEngine API methods, refer to the documentation for your
     /// MatchEngine API installation.</note>
-    /// <para>Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide.</para>
+    /// <para>Copyright (C) 2011-2016 Idée Inc. All rights reserved worldwide.</para>
     /// </summary>
     public class MatchEngineRequest : TinEyeServiceRequest
     {
@@ -24,6 +24,7 @@ namespace TinEye.Services
         /// </summary>
         /// <param name="apiURL">The MatchEngine API URL.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public MatchEngineRequest(String apiURL) : 
             base(apiURL, null, null) { }
 
@@ -37,6 +38,7 @@ namespace TinEye.Services
         /// <param name="password">The password for HTTP basic authentication when connecting to
         /// the MatchEngine API.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public MatchEngineRequest(String apiURL, String username, String password) : 
             base(apiURL, username, password) { }
 

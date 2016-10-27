@@ -10,7 +10,7 @@ namespace TinEye.Services
 {
     /// <summary>
     /// <para>Provides methods to call the MulticolorEngine API methods.</para>
-    /// <para>Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide.</para>
+    /// <para>Copyright (C) 2011-2016 Idée Inc. All rights reserved worldwide.</para>
     /// </summary>
     public class MulticolorEngineRequest : MetadataRequest
     {
@@ -23,6 +23,7 @@ namespace TinEye.Services
         /// </summary>
         /// <param name="apiURL">The MulticolorEngine API URL.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public MulticolorEngineRequest(String apiURL) : 
             base(apiURL, null, null) { }
 
@@ -36,6 +37,7 @@ namespace TinEye.Services
         /// <param name="password">The password for HTTP basic authentication when connecting to
         /// the MulticolorEngine API.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public MulticolorEngineRequest(String apiURL, String username, String password) : 
             base(apiURL, username, password) { }
 

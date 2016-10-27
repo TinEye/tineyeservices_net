@@ -10,8 +10,8 @@ namespace TinEye.Services
 {
     /// <summary>
     /// <para>Provides methods to call the TinEye Services API methods that deal with searching
-    /// and tagging imags with metadata.</para>
-    /// <para>Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide.</para>
+    /// and tagging images with metadata.</para>
+    /// <para>Copyright (C) 2011-2016 Idée Inc. All rights reserved worldwide.</para>
     /// </summary>
     public class MetadataRequest : TinEyeServiceRequest
     {
@@ -24,6 +24,7 @@ namespace TinEye.Services
         /// </summary>
         /// <param name="apiURL">The URL to a specific TinEye Services API URL.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public MetadataRequest(String apiURL) : 
             base(apiURL, null, null) { }
 
@@ -38,6 +39,7 @@ namespace TinEye.Services
         /// <param name="password">The password for HTTP basic authentication when connecting to
         /// the TinEye Services API.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public MetadataRequest(String apiURL, String username, String password) : 
             base(apiURL, username, password) { }
 

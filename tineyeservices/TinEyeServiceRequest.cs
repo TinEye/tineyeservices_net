@@ -9,7 +9,7 @@ namespace TinEye.Services
     /// <summary>
     /// <para>Provides methods to call the TinEye Services API methods that are common across all
     /// of the TinEye Services APIs (excluding the TinEye Commercial API).</para>
-    /// <para>Copyright (C) 2011-2012 Idee Inc. All rights reserved worldwide.</para>
+    /// <para>Copyright (C) 2011-2016 Idée Inc. All rights reserved worldwide.</para>
     /// </summary>
     public class TinEyeServiceRequest
     {
@@ -26,6 +26,7 @@ namespace TinEye.Services
         /// </summary>
         /// <param name="apiURL">The URL for a specific TinEye Services API.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public TinEyeServiceRequest(String apiURL) : 
             this(apiURL, null, null) { }
 
@@ -39,6 +40,7 @@ namespace TinEye.Services
         /// <param name="password">The password for HTTP basic authentication when connecting to
         /// the TinEye Services API.</param>
         /// <exception cref="ArgumentNullException">If the API URL is Nothing.</exception>
+        /// <exception cref="TinEyeServiceException">If the API URL does not end with /rest/.</exception>
         public TinEyeServiceRequest(String apiURL, String username, String password)
         {
             if (apiURL == null)
@@ -49,14 +51,11 @@ namespace TinEye.Services
             }
 
             // All API URLs have to end with /rest/ or else the URL is incorrect.
-            if (apiURL.EndsWith("/"))
+            if (!apiURL.EndsWith("/rest/"))
             {
-                this.apiURL = apiURL;
+                throw new TinEyeServiceException("The API URL '" + apiURL + "' must end with /rest/");
             }
-            else
-            {
-                this.apiURL = apiURL + "/";
-            }
+            this.apiURL = apiURL;
             this.username = username;
             this.password = password;
         }
